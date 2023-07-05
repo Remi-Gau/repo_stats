@@ -1,0 +1,228 @@
+number	created_at	closed_at	state	title	user	time_to_fix
+3794	2023-06-29 15:45:57+00:00	2023-07-05 14:49:53+00:00	closed	[FIX] Make load_confounds' confounds file selection more generic	tsalo	5
+3792	2023-06-29 13:03:33+00:00	2023-07-05 06:01:27+00:00	closed	[BUG] load_confounds on 0.10.1 does not detect the corresponding confound file	vytautasl1337	5
+3778	2023-06-27 04:14:58+00:00	2023-06-28 12:47:17+00:00	closed	[BUG] test_matrix_plotting.py:165: SyntaxWarning: assertion is always true, perhaps remove parentheses?	yurivict	1
+3741	2023-06-01 11:08:48+00:00	2023-06-14 14:51:08+00:00	closed	"[BUG] first_level_from_bids confused by ""res"" filter when looking for confounds.tsv"	andreifoldes	13
+3715	2023-04-20 15:42:20+00:00	2023-05-24 16:16:09+00:00	closed	[BUG]: missing values in `Decoder.cv_params_` when `param_grid` is a list of dicts with different keys	michellewang	34
+3630	2023-03-29 21:46:44+00:00	2023-04-11 14:14:28+00:00	closed	[BUG] Broken link for data fetch in fixed-effects example	alpinho	12
+3598	2023-03-16 04:13:15+00:00	2023-03-17 04:28:50+00:00	closed	Memory error when running signal.clean (function using all the RAM on a 128GB RAM system!)	bwinsto2	1
+3579	2023-03-08 15:30:30+00:00	2023-03-31 08:44:30+00:00	closed	Problem with flm_objects as input to non_parametric_inference() 	LineKruse	22
+3561	2023-03-03 15:30:49+00:00	2023-03-08 08:30:38+00:00	closed	Possible discrepancies between the `Cluster ID` and its label in the `label_map` of `get_clusters_tables`	JulioAPeraza	4
+3524	2023-02-21 07:43:13+00:00	2023-03-29 08:52:11+00:00	closed	cannot build GLM model from BIDS if several files have same BIDS entity but different label	Remi-Gau	36
+3487	2023-02-06 17:21:58+00:00	2023-06-28 06:43:32+00:00	closed	[BUG] Users cannot interact with the PR checklist	Remi-Gau	141
+3467	2023-01-16 21:30:04+00:00	2023-01-16 22:23:57+00:00	closed	binarize_img seems incorrect used on images with negative values	smeisler	0
+3464	2023-01-14 19:31:54+00:00	2023-02-14 08:56:37+00:00	closed	Function `non_parametric_inference` ignores any covariates	jrdalenberg	30
+3461	2023-01-11 16:29:55+00:00	2023-01-18 16:26:12+00:00	closed	`resample_img` forces input image to be NIfTI	mgxd	6
+3441	2022-12-02 09:47:35+00:00	2023-01-06 10:06:41+00:00	closed	Precision error in CanICA test in pre-release environment	ymzayek	35
+3435	2022-12-01 15:30:32+00:00	2022-12-13 11:07:13+00:00	closed	IndexError in non_parametric_inference when using two_sided_test=True	jrdalenberg	11
+3406	2022-11-05 13:26:49+00:00	2023-03-21 16:27:04+00:00	closed	signal clean should not use population standard deviation	DasDominus	136
+3389	2022-10-19 22:33:32+00:00	2022-10-24 10:03:32+00:00	closed	Error when using plot_connectome to plot negative connectivity (and setting edge_vmax < 0)	paulcbogdan	4
+3382	2022-10-11 23:51:37+00:00	2023-01-09 14:42:30+00:00	closed	test_tfce_smoke failure on x86_64	jayvdb	89
+3378	2022-10-06 19:18:13+00:00	2022-11-30 11:01:50+00:00	closed	`plot_matrix` colour bar overlaps with the matrix when plotting on assigned subplot axes	htwangtw	54
+3370	2022-09-25 12:38:59+00:00	2022-09-30 16:30:11+00:00	closed	test_get_clusters_table() fails	neurolabusc	5
+3363	2022-09-16 10:02:58+00:00	2022-10-17 21:12:52+00:00	closed	Some tests fail in `test_nilearn_standardize` on aarch64 and ppc64le	ggardet	31
+3360	2022-09-09 07:48:14+00:00	2023-03-14 20:25:49+00:00	closed	glm.first_level.hemodynamic_models.compute_regressor() computes wrong TR	askieslinger	180
+3359	2022-09-08 07:05:28+00:00	2022-10-05 16:42:44+00:00	closed	Test error:  `Different tests were collected between gw3 and gw0`	ggardet	27
+3323	2022-08-02 17:09:15+00:00	2022-10-14 19:19:49+00:00	closed	design matrix columns name checking is excessive	bthirion	73
+3318	2022-07-30 14:27:26+00:00	2022-08-02 13:02:07+00:00	closed	Colorbar causes ValueError in plotting.plot_stat_map	PibeChorro	2
+3309	2022-07-14 09:07:24+00:00	2022-07-18 12:36:29+00:00	closed	test_with_globbing_patterns_with_multiple_images fails on Python3.10	MeggyCal	4
+3299	2022-07-02 17:08:52+00:00	2023-04-12 09:21:30+00:00	closed	first_level_from_bids warnings ignore slice_time_ref argument	andreifoldes	180
+3295	2022-06-30 14:01:17+00:00	2022-07-04 12:42:31+00:00	closed	Possible inappropriate usage of scipy.stats.gamma.pdf in _gamma_difference_hrf	const7	3
+3294	2022-06-28 17:36:27+00:00	2022-09-30 16:35:05+00:00	closed	TypeError: expected string or bytes-like object	saiprasanna06	93
+3288	2022-06-27 08:21:47+00:00	2022-07-11 07:26:11+00:00	closed	Test error in scipy `1.9.0rc1`	NicolasGensollen	13
+3282	2022-06-15 14:55:35+00:00	2022-06-21 13:02:06+00:00	closed	URL problem in neurovault.py	ManonP38	5
+3256	2022-05-13 10:01:47+00:00	2022-12-05 09:55:37+00:00	closed	`TypeError: expected string or bytes-like object` when using `nilearn.input_data.NiftiMasker` with `memory` parameter.	TheChymera	180
+3253	2022-05-13 08:26:29+00:00	2022-05-30 09:28:30+00:00	closed	`plot_markers` can only plot n>=2 scatter points	caglorithm	17
+3251	2022-05-12 17:28:10+00:00	2022-05-14 06:52:49+00:00	closed	Test `test_decoder_dummy_classifier` is failing	tsalo	1
+3244	2022-05-09 18:58:20+00:00	2022-05-15 16:17:41+00:00	closed	Setting up nilearn development environment per instructions fails as tbb is not installed	JohnAtl	5
+3240	2022-05-06 17:09:54+00:00	2022-05-06 18:31:40+00:00	closed	docstring of nilearn.glm.second_level.second_level.non_parametric_inference:129:Malformed table. Bottom/header table border does not match top border.	bthirion	0
+3238	2022-05-06 00:03:09+00:00	2022-05-11 14:46:33+00:00	closed	'list' object cannot be interpreted for cut_coords in plot_roi	garincle	5
+3236	2022-05-03 14:12:08+00:00	2022-06-09 12:30:56+00:00	closed	Issues when using matplotlib version 3.5.1	thomasmeunierr	36
+3217	2022-04-11 14:47:52+00:00	2022-05-23 16:39:41+00:00	closed	Title not handled properly in the `plotting.plot_surf_stat_map` method	RaphaelMeudec	42
+3210	2022-04-05 08:54:26+00:00	2022-04-08 08:27:21+00:00	closed	Azure pipelines not passing anymore for Windows - py36	RaphaelMeudec	2
+3205	2022-03-31 20:28:08+00:00	2022-06-16 08:51:39+00:00	closed	plot_carpet's cmap option doesn't work	dangom	76
+3200	2022-03-29 21:20:24+00:00	2022-04-13 10:36:09+00:00	closed	get_cluster_table returns inconsistent result depending on `cluster_threshold`	bthirion	14
+3187	2022-03-23 15:42:04+00:00	2022-04-11 14:38:42+00:00	closed	Passing `axes` to `plotting.plot_surf_stat_map` raises `AxesSubplot object has no attribute view_init`	RaphaelMeudec	18
+3183	2022-03-21 02:45:17+00:00	2022-03-29 14:28:08+00:00	closed	Colorbar size not scaled with figsize with newest MPL	emdupre	8
+3180	2022-03-17 19:47:03+00:00	2022-03-28 07:45:32+00:00	closed	permuted_ols only returns h0_fmax for first regressor	tsalo	10
+3168	2022-02-19 00:30:40+00:00	2022-06-30 08:14:38+00:00	closed	Unexpected image resampling when nifti doesn't have an sform	dangom	131
+3160	2022-02-08 22:37:30+00:00	2022-03-16 22:43:25+00:00	closed	`fetch_abide_pcp` returns empty results	jeromedockes	36
+3156	2022-02-02 15:32:12+00:00	2022-02-03 12:31:59+00:00	closed	Holes in the plot when using plotting.view_img	friedrichkrohn	0
+3155	2022-02-02 08:54:18+00:00	2022-02-15 06:59:06+00:00	closed	plot_carpet handles TR information in an unclear way	bthirion	12
+3134	2022-01-18 15:41:47+00:00	2022-01-24 15:08:47+00:00	closed	FirstLevelModel `signal_scaling` attribute is different type from same-named parameter	tsalo	5
+3123	2022-01-11 04:44:31+00:00	2023-01-26 14:58:14+00:00	closed	Using `plotting.plot_img_on_surf` with the `threshold` option seems to produce a slight asymmetry in colorbar	shawnrhoads	180
+3120	2022-01-07 20:11:09+00:00	2022-08-01 14:34:55+00:00	closed	`view_img` always masks `bg_img` with MNI mask	dbrennan44	180
+3108	2021-12-20 17:25:01+00:00	2022-01-06 09:46:38+00:00	closed	distutils.version.LooseVersion is deprecated	drammock	16
+3104	2021-12-17 11:13:45+00:00	2022-11-07 10:37:15+00:00	closed	`_get_ticks_matplotlib()` is incorrect for integers with a small range	DimitriPapadopoulos	180
+3096	2021-12-14 22:19:53+00:00	2023-06-13 13:55:02+00:00	closed	Incorrect rendering of `view_connectome` and `view_markers` plots in Safari	butellyn	180
+3088	2021-12-10 11:45:00+00:00	2022-03-21 08:43:41+00:00	closed	`fetch_atlas_harvard_oxford` returns same object for `maps` and `filename`	NicolasGensollen	100
+3087	2021-12-10 08:37:08+00:00	2022-04-12 15:52:07+00:00	closed	`fetch_atlas_aal` download error with `SPM5` and `SPM8`	NicolasGensollen	123
+3076	2021-12-03 07:39:13+00:00	2021-12-13 16:04:00+00:00	closed	Bug in the function 'find_parcellation_cut_coords'	NeuroVR-Song	10
+3069	2021-11-22 00:34:11+00:00	2021-11-22 16:39:16+00:00	closed	Error using harvard oxford subcortical atlas in NiftiLabelsMasker	walkerped	0
+3063	2021-11-16 13:59:21+00:00	2021-12-03 16:51:17+00:00	closed	nilearn.plotting overrides the matplotlib backend, causing troubles on remote SSH development	RaphaelMeudec	17
+3043	2021-10-26 23:12:01+00:00	2021-10-31 22:41:46+00:00	closed	Design matrix columns are no longer compatible with MNE HED style labels	rob-luke	4
+3041	2021-10-26 14:13:02+00:00	2021-11-16 08:44:11+00:00	closed	`non_parametric_inference` does not accept DataFrames while documentation says it should	NicolasGensollen	20
+3040	2021-10-26 14:02:14+00:00	2022-06-20 09:07:54+00:00	closed	`_check_second_level_input` does not raise an error when it should	NicolasGensollen	180
+3034	2021-10-25 12:58:10+00:00	2021-11-15 12:41:00+00:00	closed	Method generate_report raises TypeError when mask_img of FirstLevelModel is NiftiMasker	alexisthual	20
+3029	2021-10-20 21:02:58+00:00	2023-03-29 08:52:12+00:00	closed	nilearn.glm.first_level.first_level_from_bids may incorrectly align models_run_imgs with model_events 	emaliemcmahon	180
+3024	2021-10-18 14:55:20+00:00	2021-10-21 07:19:52+00:00	closed	Using custom response functions for computing GLM leads to SyntaxError when computing contrasts	alexisthual	2
+3021	2021-10-17 20:42:36+00:00	2021-10-19 07:33:09+00:00	closed	Test failure on 32-bit platforms: test_resample_img_segmentation_fault	musicinmybrain	1
+3017	2021-10-13 20:07:28+00:00	2021-10-18 12:15:38+00:00	closed	FirstLevelModel with custom response function fails with TypeError	alexisthual	4
+3012	2021-10-08 15:52:31+00:00	2021-10-18 07:38:52+00:00	closed	"node_size does not work as array-like for nilearn.plotting.plot_markers for ""r"" and ""l"" directions"	LeSasse	9
+3007	2021-10-05 23:17:45+00:00	2021-10-07 14:33:30+00:00	closed	NiftiLabelsMasker generate report gives error 	walkerped	1
+2993	2021-09-28 08:04:30+00:00	2021-09-29 09:14:11+00:00	closed	LGTM.com recommendation: `masking._load_mask_img()`	DimitriPapadopoulos	1
+2959	2021-09-12 17:42:19+00:00	2021-09-13 07:12:01+00:00	closed	Variable defined multiple times	DimitriPapadopoulos	0
+2957	2021-09-12 16:45:36+00:00	2021-09-13 13:16:20+00:00	closed	Modification of dictionary returned by locals()	DimitriPapadopoulos	0
+2955	2021-09-10 16:47:56+00:00	2021-09-14 13:33:16+00:00	closed	AxisError when computing `reporting.get_cluster_table` 	RaphaelMeudec	3
+2941	2021-08-27 08:20:27+00:00	2021-09-01 07:49:19+00:00	closed	Titles get ignored in plot_surf_*	bthirion	4
+2939	2021-08-26 19:02:44+00:00	2021-09-17 20:59:21+00:00	closed	[bug] index_img does not adjust header pixdim if necessary	dangom	22
+2926	2021-08-19 13:00:48+00:00	2021-10-08 12:53:24+00:00	closed	LGTM error: Non-iterable used in for loop	DimitriPapadopoulos	49
+2915	2021-08-11 21:43:43+00:00	2021-08-13 20:22:57+00:00	closed	syntax error in glm	drammock	1
+2891	2021-06-29 09:28:26+00:00	2021-06-29 13:32:43+00:00	closed	Plotting bug in some documentation examples	NicolasGensollen	0
+2885	2021-06-24 16:12:23+00:00	2021-06-25 14:02:06+00:00	closed	Cannot use threshold with `plot_epi` although it is documented	NicolasGensollen	0
+2881	2021-06-18 17:46:07+00:00	2021-06-21 21:12:20+00:00	closed	Can you give a reference for the p-value calculation for contrasts?	jcrdubois	3
+2879	2021-06-18 08:07:45+00:00	2022-09-27 07:44:47+00:00	closed	The method of FDR threshholding in GLM	gourdchen	180
+2874	2021-06-14 14:18:49+00:00	2021-06-29 20:39:57+00:00	closed	ticks missing from `view_img` colorbar for some images	jeromedockes	15
+2863	2021-06-04 13:43:08+00:00	2021-06-05 12:25:19+00:00	closed	Datasets file fetcher does not respect `requests.Session` instance	rmarkello	0
+2853	2021-05-26 22:54:53+00:00	2022-04-18 14:12:00+00:00	closed	`fetch_openneuro_dataset_index` should clearly indicate it's hardcoded to retrieve a particular dataset	tyarkoni	180
+2842	2021-05-17 09:47:48+00:00	2021-09-02 10:29:17+00:00	closed	Sphinx version pinning issue preventing doc building	NicolasGensollen	108
+2837	2021-05-12 15:16:22+00:00	2021-05-13 02:47:59+00:00	closed	doc not building with sphinx 4.0.1	jeromedockes	0
+2832	2021-05-10 11:32:24+00:00	2021-05-20 13:10:53+00:00	closed	test_with_globbing_patterns_with_single_image sometimes fails on Arm	ggardet	10
+2818	2021-05-07 07:23:52+00:00	2021-05-07 10:57:27+00:00	closed	BUG: broken reference in example	Craskermasker	0
+2814	2021-05-06 16:45:29+00:00	2021-05-07 07:06:05+00:00	closed	Unclear bandpass filter application in `signal.clean`	htwangtw	0
+2797	2021-05-05 18:01:57+00:00	2021-05-06 06:34:22+00:00	closed	Fix ref in whatsnew	NicolasGensollen	0
+2778	2021-05-03 13:27:57+00:00	2021-05-20 23:32:29+00:00	closed	Axes Cutoff in Example 9.2.15.9 (plotting.plot_img_on_surf)	tvanasse	17
+2772	2021-04-27 16:21:48+00:00	2021-05-05 15:37:08+00:00	closed	`FirstLevelModel._get_voxelwise_model_attribute` only returns first design matrix's attribute	tsalo	7
+2768	2021-04-22 15:39:57+00:00	2021-06-03 07:10:19+00:00	closed	Decoder with dummy classifier estimator always predict same label	NicolasGensollen	41
+2748	2021-04-02 09:50:15+00:00	2021-04-03 09:28:10+00:00	closed	AttributeError: 'xml.etree.ElementTree.Element' object has no attribute 'getiterator'	NicolasGensollen	0
+2736	2021-03-19 10:15:25+00:00	2021-03-19 11:32:12+00:00	closed	get_iframe() doesn't apply view_img()'s configuration	ZviBaratz	0
+2730	2021-03-12 15:42:51+00:00	2021-05-05 07:28:52+00:00	closed	Should not detrend go before low and high-pass filtering too for confounders in signal.clean?	jrasero	53
+2724	2021-03-09 06:32:13+00:00	2022-08-23 14:38:09+00:00	closed	support 1D inputs with inverse_transform	jdkent	180
+2705	2021-02-19 11:57:34+00:00	2021-02-22 10:14:23+00:00	closed	Possible identical design matrix columns with generate_fake_fmri_data_and_design	NicolasGensollen	2
+2700	2021-02-17 18:07:22+00:00	2021-02-18 09:04:59+00:00	closed	get_clusters_table does not allow file input and does not check that image is 3D	jdkent	0
+2690	2021-02-10 09:49:32+00:00	2021-02-19 09:20:24+00:00	closed	Nans and no thresholding in surface plotting	NicolasGensollen	8
+2687	2021-02-06 00:57:03+00:00	2021-02-12 09:05:51+00:00	closed	compute_contrast in FLM fails when used on multiple runs with different shapes of design matrices 	hyruuk	6
+2685	2021-02-05 18:28:09+00:00	2021-02-05 23:08:44+00:00	closed	Atlas To Regions cannot extract the correct number of regions	DasDominus	0
+2677	2021-02-01 17:30:51+00:00	2021-02-02 20:00:22+00:00	closed	Failures in build due to numpy 1.20	NicolasGensollen	1
+2675	2021-01-30 13:47:56+00:00	2021-02-01 14:00:06+00:00	closed	plot_connectome shows nodes below edge_threshold	JoffJones	2
+2674	2021-01-29 20:00:58+00:00	2021-02-01 17:05:04+00:00	closed	Events of the same type that end simultaneously 	rhodricusack	2
+2668	2021-01-24 19:58:07+00:00	2021-02-05 09:58:35+00:00	closed	Slightly odd behaviour of make_first_level_design_matrix	rhodricusack	11
+2667	2021-01-22 10:04:29+00:00	2021-01-29 09:06:55+00:00	closed	Decoder.score() behaviour in classification mode	RaphaelMeudec	6
+2665	2021-01-20 16:25:47+00:00	2021-01-28 20:17:46+00:00	closed	difumo atlas resolution	jeromedockes	8
+2637	2020-12-14 19:28:15+00:00	2021-02-25 08:38:00+00:00	closed	NiftiMapsMasker and NiftiLabelsMasker cannot transform 3D images	jeromedockes	72
+2635	2020-12-11 20:38:14+00:00	2021-01-25 09:33:52+00:00	closed	Perhaps missing and/or incorrect info in nilearn.input_data.NiftiMasker	alpinho	44
+2603	2020-11-12 19:50:20+00:00	2020-11-13 10:31:30+00:00	closed	plot_surf_stat_map fails for maps provided as path to files	jeromedockes	0
+2580	2020-10-14 11:39:24+00:00	2020-11-16 20:31:33+00:00	closed	test_nifti_labels_masker_with_nans_and_infs and test_connected_label_regions fail on Arm	ggardet	33
+2579	2020-10-11 20:51:46+00:00	2020-10-20 10:04:20+00:00	closed	Colorbar of plot_stat_map disappears when results are clipped	alpinho	8
+2548	2020-07-31 13:33:13+00:00	2020-09-30 20:26:21+00:00	closed	nistats: dependence between function calls – strange bug may affect reproducibility	kbonna	61
+2537	2020-07-04 01:07:48+00:00	2021-03-08 08:50:21+00:00	closed	Rendering problems with add_contours when binary images have rotations set in the affine matrix	vnckppl	180
+2481	2020-05-21 22:41:38+00:00	2020-09-28 10:30:09+00:00	closed	ImportError: A sklearn version of at least 0.19 is required to use nilearn. 0.0.0 was found. Please upgrade sklearn	hvannieuwenh	129
+2475	2020-05-21 17:01:03+00:00	2020-07-30 13:51:15+00:00	closed	clean function modifies the input time series object if performing pass-filtering without detrending	jrasero	69
+2465	2020-05-21 00:51:39+00:00	2020-12-23 08:22:16+00:00	closed	importing plotting with neither matplotlib nor pytest installed results in pytest import error	jeromedockes	180
+2415	2020-04-07 10:37:33+00:00	2020-12-08 05:31:43+00:00	closed	[DOC] Userguide adaptation to Decoder object	thomasbazeille	180
+2414	2020-04-07 09:50:12+00:00	2020-05-22 19:19:29+00:00	closed	Decoder object failing weirdly when screening percentile too low.	thomasbazeille	45
+2360	2020-04-01 09:25:30+00:00	2020-05-22 19:19:29+00:00	closed	Decoder with ridge_regressor fails on oasis vbm example	thomasbazeille	51
+2330	2020-03-09 20:34:39+00:00	2020-04-27 17:58:47+00:00	closed	Test failure in surface plotting with the latest matplotlib version?	GaelVaroquaux	48
+2303	2020-02-03 11:24:44+00:00	2021-01-14 08:23:00+00:00	closed	nilearn.plotting.plot_connectome does not support node_color in array format	Conxz	180
+2220	2019-11-18 21:21:22+00:00	2021-01-04 13:30:35+00:00	closed	plot_surf_roi Colorbar values are in scientific format 	seralouk	180
+2067	2019-05-31 14:03:53+00:00	2020-12-21 19:37:44+00:00	closed	image values saved by concat_imgs.to_filename	poldrack	180
+1922	2019-02-15 16:04:55+00:00	2019-04-15 08:43:02+00:00	closed	plot_glass_brain fails to show the colorbar when images have np.inf	KamalakerDadi	58
+1819	2018-10-17 23:53:35+00:00	2018-10-18 13:37:02+00:00	closed	Development Version Fail 0.5.0	QinglinDong	0
+1815	2018-10-15 11:51:43+00:00	2019-10-14 15:20:16+00:00	closed	orientation problem of background image in plot_glass_brain 	chrplr	180
+1751	2018-09-02 16:26:15+00:00	2018-10-14 06:41:24+00:00	closed	NiftiMasker with target_affine throws exception.	cl445	41
+1736	2018-08-13 13:06:57+00:00	2020-09-17 07:18:22+00:00	closed	plot_decoding_tutorial.py:  condition_mask is not being applied to fmri_masked (?)	kchawla-pi	180
+1731	2018-08-08 18:23:06+00:00	2020-05-21 19:50:48+00:00	closed	fetch_neurovault_ids specifying the collection seems to return only one image	GaelVaroquaux	180
+1725	2018-08-06 14:30:22+00:00	2018-08-06 22:24:54+00:00	closed	Cater for almost 3D images in view_stat_map	GaelVaroquaux	0
+1724	2018-08-04 20:15:39+00:00	2018-08-30 12:09:32+00:00	closed	GroupSparseCovariance doesn't work with scikit-learn master	GaelVaroquaux	25
+1673	2018-07-03 20:04:58+00:00	2018-08-03 23:05:59+00:00	closed	Reduced signals of NiftiLabelsMasker on two set of inputs	KamalakerDadi	31
+1612	2018-02-21 10:38:09+00:00	2018-03-09 21:16:29+00:00	closed	dim argument is not taken into account in `plot_prob_atlas` function.	bthirion	16
+1595	2018-01-23 19:27:03+00:00	2018-01-30 21:10:59+00:00	closed	add_markers on plot_glass_brain results in TypeError	lrq3000	7
+1586	2018-01-04 23:07:48+00:00	2018-01-07 21:09:03+00:00	closed	Online documentation search is broken	chrisgorgo	2
+1399	2017-03-02 16:55:55+00:00	2017-03-03 11:11:03+00:00	closed	unmask works with 1D array, fails with 1D list	dohmatob	0
+1388	2017-02-23 22:28:12+00:00	2017-03-02 15:54:15+00:00	closed	unknown document: plot_seed_to_voxel_correlation	chrisgorgo	6
+1268	2016-09-09 17:48:06+00:00	2017-06-20 09:29:19+00:00	closed	plot_stat_map does not display the bg anat when it contains NaNs	bthirion	180
+1252	2016-08-19 16:45:39+00:00	2016-09-05 13:35:33+00:00	closed	The hemispheric glass_brain is broken for filled contours	GaelVaroquaux	16
+1251	2016-08-19 16:43:16+00:00	2016-11-03 13:25:37+00:00	closed	add_contours(filled=True) requires to specify color and alpha	GaelVaroquaux	75
+1190	2016-08-02 15:45:33+00:00	2021-01-21 17:35:40+00:00	closed	nilearn.plotting.find_xyz_cut_coords() returns the wrong coordinate	banilo	180
+1171	2016-07-07 12:42:32+00:00	2020-12-21 16:40:10+00:00	closed	Resampling of mask_img does not remove background noise.	salma1601	180
+1161	2016-07-04 15:38:27+00:00	2016-07-07 12:23:48+00:00	closed	threshold_img crashes if mask_img is string (other image manip routines may be affected)	dohmatob	2
+1005	2016-02-23 15:43:26+00:00	2016-02-23 15:56:16+00:00	closed	The front page of nilearn is not rendering right	GaelVaroquaux	0
+975	2016-02-02 09:36:46+00:00	2016-02-02 12:03:35+00:00	closed	BUG Neurodebian build failed on travis	aabadie	0
+960	2016-01-22 09:25:56+00:00	2016-01-22 20:37:32+00:00	closed	Code coverage broken on coveralls	aabadie	0
+948	2016-01-15 06:44:44+00:00	2016-02-02 10:08:34+00:00	closed	Turn down verbosity on CircleCI	GaelVaroquaux	18
+941	2016-01-12 13:36:37+00:00	2016-02-03 16:16:21+00:00	closed	ConnectivityMeasure requires 3D data	AlexandreAbraham	22
+938	2016-01-11 18:05:13+00:00	2021-01-05 14:53:27+00:00	closed	Region Extractor fails to converge in some cases	bthirion	180
+929	2016-01-06 18:59:29+00:00	2016-01-13 12:52:16+00:00	closed	Plots won't show up	smauermann	6
+914	2015-12-15 22:56:24+00:00	2016-02-03 13:22:45+00:00	closed	fetch_atlas_harvard_oxford and symmetric_split	salma1601	49
+874	2015-12-02 14:15:24+00:00	2015-12-02 16:27:28+00:00	closed	Incomprehensible exception thrown by NiftiMasker is computed mask is full	dohmatob	0
+872	2015-12-02 13:57:52+00:00	2015-12-03 18:41:11+00:00	closed	Bug: IndexError in fast_abs_percentile function	dohmatob	1
+855	2015-11-22 19:35:04+00:00	2015-12-01 17:35:50+00:00	closed	find_cuts falls crashes with empy mask 	dohmatob	8
+852	2015-11-22 14:55:58+00:00	2015-12-02 13:08:41+00:00	closed	SpaceNet constructor crashes if n_alphas=1 specified	dohmatob	9
+827	2015-11-05 22:35:19+00:00	2015-11-06 16:02:23+00:00	closed	Numerical error with scikit-learn master	GaelVaroquaux	0
+826	2015-11-05 22:28:57+00:00	2015-11-06 05:59:44+00:00	closed	cannot fetch atlas_harvard_oxford	cinvro	0
+822	2015-11-05 12:49:25+00:00	2015-11-05 21:18:53+00:00	closed	space_net._crop_mask returns incomprehensible error when mask is empty	GaelVaroquaux	0
+817	2015-11-03 09:49:36+00:00	2015-11-04 08:43:42+00:00	closed	Nilearn resampling doesn't support int16, throws RuntimeError: data type not supported	dohmatob	0
+781	2015-09-18 08:12:34+00:00	2015-09-22 08:05:56+00:00	closed	weird error related to MKL / numpy / fortran installation ?	dohmatob	3
+772	2015-09-02 05:33:59+00:00	2015-09-02 08:40:03+00:00	closed	Misleading (wrong?) code in Oasis VBM example	GaelVaroquaux	0
+684	2015-07-16 09:16:17+00:00	2015-07-20 06:36:55+00:00	closed	Website banner right corner searchlight link broken	MartinPerez	3
+671	2015-07-15 08:19:43+00:00	2015-07-15 08:23:57+00:00	closed	make_thumbnails function of gen_rst.py not fault-tolerant enough	dohmatob	0
+670	2015-07-14 19:02:13+00:00	2015-07-16 07:58:21+00:00	closed	plot_localizer_mass_univariate_methods.py seems not to be building	GaelVaroquaux	1
+668	2015-07-14 17:32:55+00:00	2015-07-15 10:27:39+00:00	closed	`make` fails due to doctests	chrisgorgo	0
+658	2015-07-14 08:44:19+00:00	2015-07-15 13:52:36+00:00	closed	Python int too large to convert to C long	dohmatob	1
+622	2015-06-30 16:57:47+00:00	2015-07-13 12:42:18+00:00	closed	intersect_mask raises bug when given a list of filename string	arthurmensch	12
+616	2015-06-24 13:39:46+00:00	2015-07-02 11:05:45+00:00	closed	displays.add_edges error : Cannot reorder the axes	salma1601	7
+611	2015-06-15 16:07:24+00:00	2015-07-13 21:22:31+00:00	closed	Messy behavior with uint8 images	AlexandreAbraham	28
+597	2015-06-01 08:28:41+00:00	2015-06-18 14:11:43+00:00	closed	Ho quirks	AlexandreAbraham	17
+585	2015-05-13 08:51:23+00:00	2015-07-13 12:40:52+00:00	closed	Fix logic flaws in caching system (was Fix 457)	AlexandreAbraham	61
+582	2015-05-11 14:09:19+00:00	2015-05-11 20:18:08+00:00	closed	Regarding issue 557, included optional argument threshold and set default as None	KamalakerDadi	0
+577	2015-05-08 20:40:48+00:00	2015-05-11 09:24:43+00:00	closed	pb with plot_stat_map with MGZ T1 image	agramfort	2
+576	2015-05-08 14:42:23+00:00	2015-05-11 07:51:49+00:00	closed	[MRG+1] Fix issue575	dohmatob	2
+575	2015-05-08 14:26:17+00:00	2015-05-11 07:51:49+00:00	closed	plot_stat_map (and probably plot_*) fails when display_mode axis has singleton dimension	dohmatob	2
+571	2015-05-04 14:30:09+00:00	2015-05-11 07:56:18+00:00	closed	[MRG+1] BF: issue #570 (including tests)	dohmatob	6
+563	2015-04-28 14:07:01+00:00	2015-05-11 13:30:27+00:00	closed	Deal with non-full rank confounds	salma1601	12
+557	2015-04-23 14:25:32+00:00	2015-05-11 20:18:44+00:00	closed	Threshold argument not dealt with properly in plot_anat	GaelVaroquaux	18
+554	2015-04-21 08:51:18+00:00	2015-04-24 11:50:43+00:00	closed	Doc does not build	AlexandreAbraham	3
+553	2015-04-20 16:16:22+00:00	2015-05-11 09:26:00+00:00	closed	[MRG] BUG: don't normalize when confounds	GaelVaroquaux	20
+528	2015-03-30 16:56:48+00:00	2015-04-15 18:06:50+00:00	closed	plot_stat_map colorbar values do not match the data	ogrisel	16
+510	2015-03-19 19:06:12+00:00	2015-03-26 08:16:18+00:00	closed	Colobar code breaks when a map is fully empty	GaelVaroquaux	6
+509	2015-03-19 18:47:47+00:00	2015-03-20 12:21:05+00:00	closed	plotting: Transparency / thresholding broken in master	GaelVaroquaux	0
+508	2015-03-19 16:45:03+00:00	2015-03-20 14:24:48+00:00	closed	Remove the six dependency	GaelVaroquaux	0
+501	2015-03-17 16:25:37+00:00	2015-04-15 10:46:26+00:00	closed	nilearn _check_niimgs called from niftimasker doesn't support current nibabel shape output	satra	28
+484	2015-03-04 21:34:50+00:00	2015-03-05 00:41:12+00:00	closed	Nilearn tried to store in -/usr/share/fsl/5.0/harvard_oxford	GaelVaroquaux	0
+482	2015-03-04 08:52:38+00:00	2015-03-25 14:15:30+00:00	closed	Filtering looks broken	GaelVaroquaux	21
+479	2015-03-03 14:32:38+00:00	2015-03-17 10:26:47+00:00	closed	connectome_plotter fails with nan's in adjacency matrix 	amadeuskanaan	13
+468	2015-02-28 18:29:38+00:00	2015-02-28 19:33:00+00:00	closed	The nilearn pypi page is broken	GaelVaroquaux	0
+463	2015-02-25 16:25:32+00:00	2015-04-30 08:25:00+00:00	closed	concat_niimgs is not iterator friendly (was: check_niimgs eliminates the first 3D image from an iterator)	bcipolli	63
+427	2015-02-13 13:35:21+00:00	2015-02-13 15:25:31+00:00	closed	image.iter_img with a str argument was broken	lesteve	0
+418	2015-02-08 15:09:03+00:00	2015-04-20 07:20:32+00:00	closed	Detrending 3D image puts all values to 0 (was Masking with detrend=True has an undocumented, unexpected semantic.)	bcipolli	70
+410	2015-02-05 21:04:39+00:00	2015-02-06 14:22:03+00:00	closed	"plot_stat_map with symmetric_cbar != ""auto"" and vmax raises UnboundLocalError"	lesteve	0
+409	2015-02-05 20:49:19+00:00	2015-02-06 09:21:29+00:00	closed	plot_stat_map with colorbar=False raises ValueError when data is all positive	lesteve	0
+385	2015-02-03 00:11:07+00:00	2015-02-05 10:44:05+00:00	closed	CacheMixin is not consistent	AlexandreAbraham	2
+379	2015-02-01 01:30:03+00:00	2015-02-27 13:18:20+00:00	closed	Show colorbar with plot_glass_brain?	gciccarelli3	26
+368	2015-01-24 14:14:24+00:00	2015-02-06 09:19:27+00:00	closed	plot_img fails:  Cannot reorder the axes: the image affine contains rotations	gciccarelli3	12
+346	2015-01-09 10:14:34+00:00	2015-02-05 10:43:50+00:00	closed	resample_img segmentation fault	lesteve	27
+338	2015-01-07 18:57:48+00:00	2015-01-16 13:05:20+00:00	closed	display.add_edges could be made more 'fluid'	GaelVaroquaux	8
+336	2015-01-07 16:46:08+00:00	2015-01-07 23:13:48+00:00	closed	Broken literalinclude in the docs	GaelVaroquaux	0
+326	2014-12-18 14:19:11+00:00	2014-12-18 14:35:53+00:00	closed	gen/gen_rst.py needs thorough cleanup	dohmatob	0
+325	2014-12-18 13:53:51+00:00	2014-12-19 11:22:20+00:00	closed	display.add_contour seems to modify the input data	GaelVaroquaux	0
+322	2014-12-17 09:39:12+00:00	2015-01-14 00:18:36+00:00	closed	3 bugs in resample_img	banilo	27
+299	2014-12-01 22:52:00+00:00	2014-12-02 13:03:58+00:00	closed	The upper colorbar does not display well when using subplots	bthirion	0
+295	2014-11-25 09:42:35+00:00	2014-12-16 17:40:10+00:00	closed	Error with fetch_localizer_contrasts when setting get_masks=True	lesteve	21
+286	2014-11-20 12:55:41+00:00	2014-11-24 08:07:34+00:00	closed	SpaceNet: NaN snowball effect	banilo	3
+275	2014-11-04 19:46:54+00:00	2014-11-13 12:48:33+00:00	closed	Bug in nilearn.image.resample_img when using non native endianness	banilo	8
+269	2014-10-28 09:36:50+00:00	2014-10-29 10:27:40+00:00	closed	"Error in ""Giving credit"" column of doc page: ""nilearn"" mispelled as ""scikit-learn"""	dohmatob	1
+238	2014-09-14 14:58:56+00:00	2014-10-28 11:27:49+00:00	closed	Add test for global path handling	AlexandreAbraham	43
+228	2014-07-23 15:23:27+00:00	2014-09-15 12:52:00+00:00	closed	clean session bug in nifti masker	GaelVaroquaux	53
+222	2014-07-01 14:09:25+00:00	2014-07-01 16:02:37+00:00	closed	(fast_abs_percentile backport fails): TypeError (indexing) in _utils.fast_math.py	dohmatob	0
+220	2014-06-27 22:30:09+00:00	2014-09-16 07:35:15+00:00	closed	Dep on very old sklearn versions (<= 0.10) necessitates very heavy backports	dohmatob	80
+199	2014-05-29 17:49:12+00:00	2014-10-08 06:51:13+00:00	closed	Merge in the better_pca branch	GaelVaroquaux	131
+190	2014-04-28 14:06:27+00:00	2014-04-28 21:37:05+00:00	closed	Bug: Localizer fetcher does not support multiple contrasts	bthirion	0
+179	2014-03-31 15:33:35+00:00	2014-04-23 00:58:40+00:00	closed	Fetching may fail if several files having the same name are requested	AlexandreAbraham	22
+162	2014-02-10 16:37:26+00:00	2014-02-14 09:36:48+00:00	closed	Dangerous open-ended `if ... elif` in `masking.unmask (i.e `else` is absent)	dohmatob	3
+120	2013-10-29 19:18:18+00:00	2014-03-31 19:56:52+00:00	closed	[bug?] searchlight requires too much memory	banilo	153
+82	2013-06-19 22:57:00+00:00	2013-11-05 13:55:37+00:00	closed	Validate the behavior of MultiPCA if a MultiNiftiMasker is given	AlexandreAbraham	138
+80	2013-06-19 22:34:42+00:00	2013-06-20 08:53:15+00:00	closed	Fix cloning of MultiNiftiMasker in MultiPCA	AlexandreAbraham	0
+71	2013-06-11 09:25:36+00:00	2013-06-20 08:59:02+00:00	closed	Transform should never modify object	GaelVaroquaux	8
+60	2013-05-23 21:30:55+00:00	2013-06-10 17:15:13+00:00	closed	test_canica_square_img fails randomly	bthirion	17
+36	2012-11-21 11:34:28+00:00	2013-06-21 09:08:23+00:00	closed	Google search is on scikit-learn	AlexandreAbraham	180
+31	2012-11-13 13:25:21+00:00	2015-04-08 22:41:53+00:00	closed	Consider 1 frame 4D image as a 3D image	AlexandreAbraham	180
