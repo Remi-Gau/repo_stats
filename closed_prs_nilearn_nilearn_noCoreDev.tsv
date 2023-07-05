@@ -1,0 +1,776 @@
+number	created_at	merged_at	state	title	user	time_to_merge
+3774	2023-06-22 08:59:46+00:00	2023-06-23 14:19:07+00:00	closed	[ENH][DOC] Fix inconsistent description of return keys for fetch_atlas_surf_destrieux	tarunsamanta2k20	1
+3743	2023-06-02 14:37:51+00:00	2023-06-06 14:38:22+00:00	closed	[MAINT] Clean up remaining files from deprecated datasets (`cobre`, `nyu`)	michellewang	4
+3739	2023-05-26 22:22:25+00:00	2023-06-12 10:04:35+00:00	closed	add more info to adhd example	mtorabi59	16
+3738	2023-05-23 22:31:26+00:00	2023-05-24 16:32:51+00:00	closed	"Correcting typo in the ""load_confounds_strategy"" function (""scrubbing"")"	jonasmago	0
+3736	2023-05-09 13:47:05+00:00	2023-06-07 11:50:52+00:00	closed	[ENH] Use LogisticRegressionCV instead of LogisticRegression to improve Decoder performance	michellewang	28
+3733	2023-05-03 15:25:06+00:00	2023-05-24 16:16:08+00:00	closed	[FIX] Missing values in `Decoder.cv_params_` when `param_grid` is a list of dicts with different keys	michellewang	21
+3722	2023-04-25 22:38:37+00:00	2023-07-04 12:40:09+00:00	closed	Adding keep_masked_labels parameter to Labels_masker	mtorabi59	69
+3631	2023-03-29 22:19:27+00:00	2023-04-24 09:54:13+00:00	closed	add a warning when imgs being upsampled to the mask_img resolution	mtorabi59	25
+3626	2023-03-27 16:54:23+00:00	2023-04-21 10:08:42+00:00	closed	[ENH] Special handling of ``param_grid``/``cv_params_`` for Decoder objects using models with built-in CV	michellewang	24
+3563	2023-03-04 00:23:00+00:00	2023-03-08 08:30:36+00:00	closed	[Fix] relabel `label_maps` to match the cluster IDs in the clusters table	JulioAPeraza	4
+3558	2023-03-02 12:56:30+00:00	2023-04-19 15:03:11+00:00	closed	[DOC] Update references in nilearn/decomposition with bibtex	achamma723	48
+3557	2023-03-02 11:09:11+00:00	2023-04-21 12:03:59+00:00	closed	[FIX] update examples with new altas API	achamma723	50
+3535	2023-02-23 18:49:13+00:00	2023-02-24 09:22:26+00:00	closed	MAINT: Deal with matplotlib deprecation	larsoner	0
+3512	2023-02-14 17:34:38+00:00	2023-02-15 09:05:06+00:00	closed	remove unused pkg_resources import	drammock	0
+3498	2023-02-10 22:40:20+00:00	2023-03-09 08:40:29+00:00	closed	[ENH] Add utility function to load sample motor contrast image	michellewang	26
+3483	2023-02-02 16:55:17+00:00	2023-03-09 13:12:46+00:00	closed	[DOC] Add example of plotting confusion matrix from decoder family object	michellewang	34
+3477	2023-01-27 20:26:06+00:00	2023-02-15 08:37:37+00:00	closed	[ENH] Add label maps as output to `get_clusters_tables`	smeisler	18
+3465	2023-01-14 19:37:28+00:00	2023-02-14 08:56:36+00:00	closed	[FIX] Add covariates to non-parametric inference	jrdalenberg	30
+3462	2023-01-11 16:51:13+00:00	2023-01-18 16:26:11+00:00	closed	FIX: `resample_img()` compatibility with non-NIfTI images	mgxd	6
+3452	2022-12-28 16:40:06+00:00	2023-01-03 14:02:13+00:00	closed	[ENH] add `cut_coords` parameter in `reporting.make_glm_report` method	AudreyDuran	5
+3446	2022-12-06 19:33:12+00:00	2022-12-08 13:58:56+00:00	closed	"[DOC]  Add ""add changelog entry"" to auto-comment PR template #3218 "	RobWilliamson15	1
+3445	2022-12-06 16:43:39+00:00	2023-01-27 09:35:55+00:00	closed	[DOC] Note that Masker.inverse_transform only performs spatial unmasking in docstring	RobWilliamson15	51
+3436	2022-12-01 15:31:19+00:00	2022-12-13 11:06:45+00:00	closed	[FIX] Combine positive and negative cluster labels for two sided permutation tests 	jrdalenberg	11
+3412	2022-11-08 21:39:33+00:00	2022-11-09 18:12:35+00:00	closed	[DOC] Update compute_multi_epi_mask description	clarkenj	0
+3410	2022-11-06 21:19:52+00:00	2022-12-12 16:05:55+00:00	closed	[MAINT] Escape `\` or better yet, use raw string	DimitriPapadopoulos	35
+3409	2022-11-06 21:19:31+00:00	2022-11-07 22:09:35+00:00	closed	[MAINT] Source encoding is UTF-8 by default	DimitriPapadopoulos	1
+3408	2022-11-06 21:09:27+00:00	2022-11-07 22:08:38+00:00	closed	[MAINT] No need to inherit `object` in Python 3	DimitriPapadopoulos	1
+3407	2022-11-06 20:48:51+00:00	2022-11-08 08:38:30+00:00	closed	[MAINT] Apply refurb suggestions	DimitriPapadopoulos	1
+3403	2022-10-28 12:46:49+00:00	2022-11-30 11:01:49+00:00	closed	Fix colorbar behaviour in subplots	RaphaelMeudec	32
+3395	2022-10-25 10:17:20+00:00	2022-10-26 08:21:07+00:00	closed	[Fix]: inaccurate docstring of find_probabilistic_atlas_cut_coords	achamma723	0
+3390	2022-10-19 22:37:03+00:00	2022-10-24 10:03:31+00:00	closed	[FIX] Error when using plot_connectome(...) and edge_vmax < 0	paulcbogdan	4
+3369	2022-09-23 05:37:59+00:00	2022-09-23 09:07:54+00:00	closed	[MAINT] Update CI workflow	DimitriPapadopoulos	0
+3362	2022-09-14 12:47:44+00:00	2023-03-14 20:25:48+00:00	closed	[FIX] Change calculation of TR in glm.first_level.hemodynamic_models.compute_regressor()	askieslinger	90
+3353	2022-08-31 11:18:48+00:00	2023-03-01 08:33:36+00:00	closed	[ENH] Old atlases return one atlas map	achamma723	90
+3351	2022-08-26 14:58:55+00:00	2023-03-10 15:16:03+00:00	closed	[ENH] Adds sub_labels argument to first_level_from_bids	sitek	90
+3350	2022-08-25 02:33:24+00:00	2022-08-26 11:16:35+00:00	closed	[MAINT] fix various typos	luzpaz	1
+3347	2022-08-23 15:11:42+00:00	2022-08-25 13:57:26+00:00	closed	[Fix]: Rename functions as private functions	achamma723	1
+3344	2022-08-22 10:12:41+00:00	2022-08-23 09:32:32+00:00	closed	[MAINT] Fix Matplotlib Pending deprecations	NicolasGensollen	0
+3343	2022-08-22 09:34:44+00:00	2022-08-24 07:20:57+00:00	closed	[MAINT] Fix `scipy.ndimage.measurements` deprecations	NicolasGensollen	1
+3337	2022-08-17 09:02:11+00:00	2022-08-18 15:03:03+00:00	closed	[DOC] Changed AHDH to ADHD	sachin-bsai	1
+3333	2022-08-09 21:20:12+00:00	2022-08-16 13:34:19+00:00	closed	[REF] Performance optimizations for TFCE	sahahn	6
+3306	2022-07-12 09:33:20+00:00	2022-07-13 07:50:21+00:00	closed	[FIX] Pass alpha on to glass brain when plotting connectome	koenhelwegen	0
+3302	2022-07-05 09:32:16+00:00	2022-07-07 09:56:15+00:00	closed	[DOC] Use BibTeX references in glm docstrings	achamma723	2
+3297	2022-07-01 09:46:57+00:00	2022-07-04 12:42:31+00:00	closed	[FIX] correct the usage of `scipy.stats.gamma.pdf`	const7	3
+3292	2022-06-28 04:20:22+00:00	2022-06-29 06:06:34+00:00	closed	[ENH] Shift centers of mass outside of clusters to closest in-cluster voxel	clane9	1
+3291	2022-06-27 18:25:55+00:00	2022-07-01 09:14:43+00:00	closed	MAINT: Avoid deprecation	larsoner	3
+3289	2022-06-27 12:01:17+00:00	2022-06-28 07:05:06+00:00	closed	[DOC] Fix documentation building	NicolasGensollen	0
+3284	2022-06-18 11:45:38+00:00	2022-06-30 08:14:38+00:00	closed	Add sform check in resampling	MatthieuJoulot	11
+3283	2022-06-16 13:42:38+00:00	2022-06-20 09:07:54+00:00	closed	Raise error when flm false and a list of FirstlevelModels is passed	MatthieuJoulot	3
+3281	2022-06-15 14:23:52+00:00	2022-06-21 13:02:06+00:00	closed	[FIX] change http into https in neurovault URL	ManonP38	5
+3277	2022-06-10 23:54:11+00:00	2022-06-13 15:00:43+00:00	closed	CI: Test pre-release versions of dependencies	effigies	2
+3276	2022-06-10 16:40:38+00:00	2022-06-13 06:52:16+00:00	closed	[DOC] Fix ref in what's_new	NicolasGensollen	2
+3274	2022-06-07 18:33:14+00:00	2022-06-16 11:11:48+00:00	closed	REF: refactors _load_single to split parsing and loading	ellisdg	8
+3269	2022-05-31 17:57:34+00:00	2022-06-01 08:28:55+00:00	closed	DOC: Fixes import in surface/data README file	arokem	0
+3263	2022-05-19 17:36:43+00:00	2022-05-21 08:04:22+00:00	closed	[DOC] Fix doc building	NicolasGensollen	1
+3260	2022-05-16 08:27:30+00:00	2022-05-17 21:48:23+00:00	closed	[MAINT] Fix `scipy.ndimage` deprecations	NicolasGensollen	1
+3259	2022-05-13 20:53:19+00:00	2023-04-06 08:23:19+00:00	closed	[ENH] Add option for user to specifiy angle directly via view argument	sambjohnson	90
+3255	2022-05-13 08:41:41+00:00	2022-05-30 09:27:51+00:00	closed	[Fix] plot_markers: remove squeeze for plotting single scatter point	caglorithm	17
+3254	2022-05-13 08:35:28+00:00	2022-05-22 09:00:22+00:00	closed	[MAINT] Fix `giftiio` deprecations	NicolasGensollen	9
+3252	2022-05-13 08:05:25+00:00	2022-05-14 06:52:49+00:00	closed	[Fix] Fix test decoder	NicolasGensollen	0
+3233	2022-04-27 22:22:56+00:00	2022-06-16 09:54:39+00:00	closed	Update Craddock 2000 url	vascosa	49
+3223	2022-04-15 15:58:20+00:00	2022-04-15 16:34:51+00:00	closed	"[DOC] Update the ""How to make a release"" section in the maintenance documentation"	NicolasGensollen	0
+3221	2022-04-13 13:41:09+00:00	2022-04-14 07:18:05+00:00	closed	Post-release `0.9.1`	NicolasGensollen	0
+3220	2022-04-13 07:32:19+00:00	2022-05-23 16:39:41+00:00	closed	Title from plotting.plot_surf_stat_map is now handled properly when passing an axis in plot_surf_stat_map	RaphaelMeudec	40
+3219	2022-04-12 16:33:40+00:00	2022-04-13 12:38:08+00:00	closed	Release `0.9.1`	NicolasGensollen	0
+3215	2022-04-07 12:24:19+00:00	2022-04-07 20:32:51+00:00	closed	[DOC] Fix docstring of `fetch_mixed_gambles` and broken ref in `latest.rst`	NicolasGensollen	0
+3214	2022-04-07 08:58:05+00:00	2022-04-12 12:35:46+00:00	closed	[DOC] Add maskers note in examples	NicolasGensollen	5
+3213	2022-04-07 07:35:32+00:00	2022-04-08 08:27:20+00:00	closed	[MAINT] Bump python versions in azure pipelines	NicolasGensollen	1
+3212	2022-04-06 08:06:19+00:00	2022-04-11 20:07:36+00:00	closed	[DOC] Fix documentation links	NicolasGensollen	5
+3209	2022-04-02 16:13:18+00:00	2022-06-16 08:51:39+00:00	closed	Fix carpet_plot's cmap argument	dangom	74
+3202	2022-03-30 13:47:01+00:00	2022-04-03 10:06:34+00:00	closed	More explicit docstring regarding min_distance	RaphaelMeudec	3
+3188	2022-03-23 15:59:53+00:00	2022-03-29 14:28:08+00:00	closed	Unify colorbar draws between Matplotlib versions	RaphaelMeudec	5
+3186	2022-03-23 14:32:10+00:00	2022-03-28 19:39:31+00:00	closed	Fix documentation build	RaphaelMeudec	5
+3185	2022-03-23 00:51:36+00:00	2022-06-10 14:25:16+00:00	closed	Add optional random_state kwarg to run_glm()	sjawhar	79
+3179	2022-03-17 11:02:55+00:00	2022-03-21 08:43:41+00:00	closed	Expose filename in fetch atlas	RaphaelMeudec	3
+3174	2022-03-09 09:35:56+00:00	2022-03-16 22:43:24+00:00	closed	[FIX] Fix `fetch_abide_pcp`	NicolasGensollen	7
+3166	2022-02-17 16:39:08+00:00	2022-02-17 21:25:37+00:00	closed	MAINT: Use non-deprecated method	larsoner	0
+3164	2022-02-11 19:42:49+00:00	2022-02-11 20:49:46+00:00	closed	MAINT: Update Azure	larsoner	0
+3162	2022-02-09 14:58:52+00:00	2022-02-14 09:02:06+00:00	closed	Adds a minor update to new_img_like docstring	jbteves	4
+3153	2022-02-02 03:40:12+00:00	2022-02-07 08:27:11+00:00	closed	Fix image labels	ctw	5
+3152	2022-01-31 11:54:12+00:00	2022-02-16 11:46:12+00:00	closed	[DOC] Add deterministic and probabilistic atlases to glossary	NicolasGensollen	15
+3151	2022-01-28 19:08:07+00:00	2022-01-28 20:34:48+00:00	closed	Post-release `0.9.0`	NicolasGensollen	0
+3150	2022-01-28 15:46:26+00:00	2022-03-18 16:52:35+00:00	closed	[INFRA] Update docs `install` target	NicolasGensollen	49
+3147	2022-01-27 12:58:07+00:00	2022-01-28 16:05:07+00:00	closed	Release `0.9.0`	NicolasGensollen	1
+3146	2022-01-27 10:58:16+00:00	2022-01-27 14:46:45+00:00	closed	[DOC] Update copyright	NicolasGensollen	0
+3144	2022-01-26 10:58:49+00:00	2022-01-27 14:27:09+00:00	closed	[INFRA] Add tests min requirements with Matplotlib	NicolasGensollen	1
+3143	2022-01-25 11:33:59+00:00	2022-01-27 09:28:56+00:00	closed	[MAINT] Bump dependencies for release `0.9.0`	NicolasGensollen	1
+3142	2022-01-25 11:01:53+00:00	2022-01-25 12:47:49+00:00	closed	[DOC] Fix wrong whats_new entry	NicolasGensollen	0
+3141	2022-01-24 12:43:54+00:00	2022-06-29 11:30:13+00:00	closed	"[ENH] Rename objects of `nilearn.decomposition` with leading ""_"""	NicolasGensollen	90
+3139	2022-01-21 13:45:11+00:00	2022-01-21 16:40:59+00:00	closed	[FIX] Fix links in whats_new	NicolasGensollen	0
+3136	2022-01-20 21:32:12+00:00	2022-01-24 13:40:29+00:00	closed	replace interpreter call	bnavigator	3
+3135	2022-01-19 14:54:20+00:00	2022-01-24 15:08:46+00:00	closed	[FIX] `FirstLevelModel` signal_scaling 	NicolasGensollen	5
+3133	2022-01-18 09:55:06+00:00	2022-01-20 13:05:00+00:00	closed	[MAINT] Remove deprecated `sessions` and `sample_mask` attributes of `NiftiMasker`	NicolasGensollen	2
+3131	2022-01-17 11:03:48+00:00	2022-01-18 14:55:46+00:00	closed	Rename private functions of `permuted_least_squares` to start with '_'	NicolasGensollen	1
+3124	2022-01-11 11:25:15+00:00	2022-01-19 09:00:04+00:00	closed	[MAINT] Update git protocol in CircleCI fetch step	NicolasGensollen	7
+3119	2022-01-07 11:30:42+00:00	2022-01-08 10:35:50+00:00	closed	[MAINT] Fix `matplotlib` intersphinx URL	NicolasGensollen	0
+3113	2022-01-04 10:09:22+00:00	2022-01-06 09:46:38+00:00	closed	[MAINT] `LooseVersion` deprecations	NicolasGensollen	1
+3111	2021-12-23 16:37:08+00:00	2022-01-07 13:24:48+00:00	closed	[DOC] Convert reference in nilearn/regions to use footcite	NeelayS	14
+3106	2021-12-17 12:14:17+00:00	2021-12-20 19:49:24+00:00	closed	[MAINT] Drop support for Nibabel 2.x	NicolasGensollen	3
+3105	2021-12-17 11:25:15+00:00	2022-11-07 10:37:14+00:00	closed	[FIX] Off-by-one error while setting up ticks	DimitriPapadopoulos	90
+3103	2021-12-17 08:41:38+00:00	2022-01-06 11:06:55+00:00	closed	[INFRA] Add missing documentation building requirements	NicolasGensollen	20
+3101	2021-12-15 23:56:04+00:00	2021-12-16 15:17:38+00:00	closed	[MAINT] Fix new typos found by codespell	DimitriPapadopoulos	0
+3100	2021-12-15 23:48:45+00:00	2021-12-17 08:02:59+00:00	closed	[INFRA] Fix typo in CI job name	DimitriPapadopoulos	1
+3099	2021-12-15 23:44:52+00:00	2021-12-16 09:09:18+00:00	closed	[MAINT] Remove LGTM.com new alerts - mainly unused imports	DimitriPapadopoulos	0
+3098	2021-12-15 12:34:11+00:00	2022-04-12 15:52:06+00:00	closed	[FIX] Make `fetch_atlas_aal` work with `SPM5` and `SPM8`	NicolasGensollen	90
+3094	2021-12-14 18:07:58+00:00	2021-12-14 20:38:49+00:00	closed	BUG: Import from collections.abc for 3.10	larsoner	0
+3093	2021-12-14 11:00:43+00:00	2021-12-15 09:10:15+00:00	closed	[MAINT] Remove parameter `sessions` in `clean()`	NicolasGensollen	0
+3092	2021-12-13 17:49:07+00:00	2022-01-20 14:52:53+00:00	closed	[MAINT] Remove old workarounds in init file	NicolasGensollen	37
+3091	2021-12-13 09:26:43+00:00	2021-12-14 08:49:36+00:00	closed	[FIX] Undo wrong fix `fetch_atlas_destrieux_ 2009`	NicolasGensollen	0
+3090	2021-12-10 15:52:08+00:00	2021-12-13 16:05:56+00:00	closed	[MAINT] Remove `compute_gray_matter_mask`	NicolasGensollen	3
+3089	2021-12-10 14:04:52+00:00	2021-12-10 15:46:55+00:00	closed	[FIX] Fix function reference in whats_new	NicolasGensollen	0
+3083	2021-12-09 15:07:25+00:00	2022-01-07 11:36:29+00:00	closed	[DOC] Improve documentation atlas fetchers	NicolasGensollen	28
+3082	2021-12-08 09:27:28+00:00	2021-12-10 18:23:28+00:00	closed	[MAINT] Remove function `plot_connectome_strength`	NicolasGensollen	2
+3081	2021-12-07 11:37:38+00:00	2021-12-08 08:21:28+00:00	closed	[MAINT] Remove function `fetch_cobre`	NicolasGensollen	0
+3078	2021-12-03 12:49:53+00:00	2021-12-10 12:04:50+00:00	closed	[FIX] Return sorted labels and coordinates with `find_parcellation_cut_coords`	NeuroVR-Song	6
+3077	2021-12-03 09:15:14+00:00	2021-12-03 16:51:17+00:00	closed	Matplotlib backend switch warning	RaphaelMeudec	0
+3073	2021-11-24 15:14:51+00:00	2021-12-13 21:00:00+00:00	closed	[ENH] Add displays to API	NicolasGensollen	19
+3071	2021-11-22 15:43:49+00:00	2021-11-23 08:07:49+00:00	closed	[MAINT] Filter `Userwarning` in example	NicolasGensollen	0
+3070	2021-11-22 10:24:25+00:00	2021-11-30 08:21:23+00:00	closed	[FIX] Fix labels in `fetch_atlas_destrieux_2009`	NicolasGensollen	7
+3067	2021-11-19 13:35:20+00:00	2021-11-19 20:36:50+00:00	closed	Fix office hours in README	RaphaelMeudec	0
+3066	2021-11-19 11:50:01+00:00	2021-11-25 21:54:23+00:00	closed	[DOC] Fix rendering and add some refs in `region_extraction.rst`	NicolasGensollen	6
+3065	2021-11-18 15:40:39+00:00	2022-01-10 17:04:39+00:00	closed	[ENH] New `maskers` module	NicolasGensollen	53
+3064	2021-11-18 06:01:18+00:00	2021-11-19 08:13:36+00:00	closed	[DOC] Repeated words	DimitriPapadopoulos	1
+3062	2021-11-16 10:34:01+00:00	2021-11-22 13:55:27+00:00	closed	[INFRA] Add `memory_profiler`	NicolasGensollen	6
+3061	2021-11-15 11:39:37+00:00	2021-11-17 09:27:44+00:00	closed	[ENH] Creation of `interfaces` module	NicolasGensollen	1
+3060	2021-11-13 10:35:17+00:00	2021-11-13 19:20:03+00:00	closed	[FIX] Fix sphinx config	NicolasGensollen	0
+3059	2021-11-12 12:14:03+00:00	2021-11-15 07:58:00+00:00	closed	[DOC] FIX typo	xgrg	2
+3057	2021-11-10 17:08:11+00:00	2021-11-11 18:59:24+00:00	closed	[FIX] Fix example	NicolasGensollen	1
+3056	2021-11-10 14:47:13+00:00	2021-11-12 10:17:55+00:00	closed	[MAINT] Numpy type deprecations	NicolasGensollen	1
+3054	2021-11-09 09:55:56+00:00	2021-11-10 08:23:33+00:00	closed	[FIX] Fix example `fmriprep_confounds`	NicolasGensollen	0
+3053	2021-11-08 18:08:07+00:00	2021-11-15 19:48:45+00:00	closed	MAINT: Work around SciPy deprecation	larsoner	7
+3052	2021-11-06 09:34:55+00:00	2021-11-08 08:32:03+00:00	closed	[FIX] Fix memory issue on CircleCI	NicolasGensollen	1
+3051	2021-11-05 22:04:27+00:00	2021-11-08 12:47:58+00:00	closed	[MAINT] Address some `Matplotlib` and `Numpy` deprecations	NicolasGensollen	2
+3050	2021-11-05 21:17:05+00:00	2021-11-07 09:15:26+00:00	closed	[MAINT] Address some `scikit-learn` deprecations	NicolasGensollen	1
+3049	2021-11-04 14:52:47+00:00	2022-01-26 09:09:02+00:00	closed	[DOC] Refactor change logs	NicolasGensollen	82
+3048	2021-11-01 11:28:48+00:00	2021-11-02 09:10:21+00:00	closed	[MAINT] LGTM.com warning: Variable defined multiple times	DimitriPapadopoulos	0
+3047	2021-10-30 21:22:17+00:00	2021-11-10 14:49:50+00:00	closed	[MAINT] LGTM.com error: Modification of parameter with default	DimitriPapadopoulos	10
+3042	2021-10-26 16:28:06+00:00	2021-11-16 08:44:11+00:00	closed	[FIX] Allow `DataFrame` as input for `non_parametric_inference`	NicolasGensollen	20
+3039	2021-10-26 11:17:33+00:00	2021-10-27 08:18:36+00:00	closed	[MAINT] Deprecate `sessions` in `clean_img`	NicolasGensollen	0
+3037	2021-10-25 16:57:42+00:00	2021-10-26 09:19:55+00:00	closed	[MAINT] Address joblib `cachedir` deprecation	NicolasGensollen	0
+3036	2021-10-25 13:48:58+00:00	2021-11-26 17:53:01+00:00	closed	[ENH] `Plotly` and `Matplotlib` surface figures	NicolasGensollen	32
+3033	2021-10-25 08:01:07+00:00	2021-10-27 17:19:16+00:00	closed	[ENH] `SecondLevelModel` residuals	NicolasGensollen	2
+3032	2021-10-21 13:20:50+00:00	2021-10-22 09:27:07+00:00	closed	[MAINT] Remove support for Nibabel < 2.1	NicolasGensollen	0
+3031	2021-10-21 10:50:37+00:00	2021-10-21 13:03:46+00:00	closed	[FIX] Fix broken ref in whats_new	NicolasGensollen	0
+3030	2021-10-21 10:48:18+00:00	2022-06-27 07:12:37+00:00	closed	[DOC] Improve documentation for GLM `second_level` submodule	NicolasGensollen	90
+3028	2021-10-20 10:35:53+00:00	2021-10-25 06:54:49+00:00	closed	[DOC] Add documentation for plotly engine in user guide	NicolasGensollen	4
+3026	2021-10-19 14:42:10+00:00	2021-10-21 15:36:22+00:00	closed	[MAINT] Deprecate Python 3.6	NicolasGensollen	2
+3023	2021-10-18 12:23:38+00:00	2021-10-20 08:18:38+00:00	closed	[ENH] Refactor `test_js_plotting_utils`	NicolasGensollen	1
+3022	2021-10-18 08:13:38+00:00	2021-10-19 07:33:09+00:00	closed	[FIX] Skip `test_resample_img_segmentation_fault` if 32 bits	NicolasGensollen	0
+3015	2021-10-12 16:45:17+00:00	2021-10-19 09:21:28+00:00	closed	[ENH] Refactor tests for image plotting	NicolasGensollen	6
+3013	2021-10-09 08:26:05+00:00	2021-10-18 07:38:52+00:00	closed	[FIX]: plot_markers() did not work with array-like node sizes for dir…	LeSasse	8
+3011	2021-10-08 14:35:38+00:00	2021-10-11 11:15:12+00:00	closed	[DOC] Add dev/stable version banners	NicolasGensollen	2
+3010	2021-10-07 13:48:24+00:00	2021-10-29 13:27:21+00:00	closed	[DOC] Improve contributing docs	NicolasGensollen	21
+3009	2021-10-06 13:02:52+00:00	2021-10-07 14:33:30+00:00	closed	[FIX] Fix `IndexError` in `NiftiLabelsMasker.generate_report()` with non-integer labels image	NicolasGensollen	1
+3008	2021-10-06 10:51:16+00:00	2021-10-07 07:33:50+00:00	closed	[ENH] Add warning when `NiftiLabelsMasker` removes labels at transform time	NicolasGensollen	0
+3006	2021-10-05 07:21:07+00:00	2021-10-06 07:49:09+00:00	closed	[DOC] Update core-dev list	NicolasGensollen	1
+3005	2021-10-04 14:38:01+00:00	2021-10-05 11:22:22+00:00	closed	[DOC] Improve documentation of `signal` module	NicolasGensollen	0
+3004	2021-10-04 09:48:02+00:00	2021-10-06 12:19:25+00:00	closed	[DOC] Improve documentation of `masking` module	NicolasGensollen	2
+3002	2021-09-30 16:58:42+00:00	2021-10-01 17:26:59+00:00	closed	[MAINT] LGTM.com recommendations	DimitriPapadopoulos	1
+3001	2021-09-30 15:14:10+00:00	2022-01-24 11:08:47+00:00	closed	[ENH] Refactor `plot_matrix`	NicolasGensollen	90
+3000	2021-09-30 11:14:06+00:00	2021-10-01 08:30:23+00:00	closed	[MAINT] Fix positional args deprecations (sklearn >= 1.0)	NicolasGensollen	0
+2998	2021-09-29 12:31:58+00:00	2021-10-11 07:13:19+00:00	closed	[DOC] Add `fwhm` to glossary and standard doc	NicolasGensollen	11
+2996	2021-09-28 13:14:27+00:00	2021-09-29 09:14:11+00:00	closed	[MAINT] LGTM.com recommendation: Unused local variable	DimitriPapadopoulos	0
+2995	2021-09-28 08:32:45+00:00	2021-09-28 11:18:22+00:00	closed	[FIX] Fix broken ref	NicolasGensollen	0
+2994	2021-09-28 08:25:09+00:00	2021-09-29 11:05:18+00:00	closed	[MAINT] LGTM.com recommendation: Unused local variable	DimitriPapadopoulos	1
+2992	2021-09-27 20:26:50+00:00	2021-09-29 07:14:09+00:00	closed	[FIX] LGTM.com warning: Variable defined multiple times	DimitriPapadopoulos	1
+2990	2021-09-26 19:03:58+00:00	2021-09-29 12:54:29+00:00	closed	[FIX] LGTM.com warning: Conflicting attributes in base classes	DimitriPapadopoulos	2
+2988	2021-09-24 13:12:27+00:00	2021-09-28 06:41:22+00:00	closed	[DOC] Add `dictionary learning` to glossary	NicolasGensollen	3
+2987	2021-09-24 08:59:29+00:00	2021-09-27 08:51:17+00:00	closed	[FIX] LGTM.com warning: Variable defined multiple times	DimitriPapadopoulos	2
+2986	2021-09-24 07:10:03+00:00	2021-09-24 12:06:17+00:00	closed	[INFRA] Fix auto-comment action	NicolasGensollen	0
+2983	2021-09-23 09:11:10+00:00	2021-09-24 09:29:52+00:00	closed	[DOC] Add `fMRIPrep` to glossary	NicolasGensollen	1
+2980	2021-09-19 18:48:43+00:00	2021-09-28 13:11:43+00:00	closed	[FIX] LGTM.com recommendations	DimitriPapadopoulos	8
+2979	2021-09-19 18:46:52+00:00	2021-09-22 16:30:21+00:00	closed	from __future__ import: not needed in Python >= 3.6	DimitriPapadopoulos	2
+2978	2021-09-19 16:12:09+00:00	2021-09-24 07:13:39+00:00	closed	[FIX] LGTM.com warning: Variable defined multiple times	DimitriPapadopoulos	4
+2977	2021-09-19 16:00:11+00:00	2021-09-22 16:28:58+00:00	closed	[FIX] LGTM.com warning: Variable defined multiple times	DimitriPapadopoulos	3
+2976	2021-09-16 16:41:41+00:00	2021-09-20 06:55:03+00:00	closed	[DOC] Update core-devs list	NicolasGensollen	3
+2975	2021-09-16 16:28:53+00:00	2021-09-16 16:59:02+00:00	closed	Post-release `0.8.1`	NicolasGensollen	0
+2974	2021-09-16 11:59:59+00:00	2021-09-16 14:40:27+00:00	closed	Release `0.8.1`	NicolasGensollen	0
+2973	2021-09-16 08:29:48+00:00	2021-09-17 10:06:13+00:00	closed	Discard trailing spaces at end of line	DimitriPapadopoulos	1
+2972	2021-09-16 08:02:00+00:00	2021-09-23 07:04:47+00:00	closed	chmod -x	DimitriPapadopoulos	6
+2970	2021-09-15 10:53:34+00:00	2021-09-17 08:28:02+00:00	closed	Automatic commenting on new PR	thomasbazeille	1
+2969	2021-09-15 07:41:29+00:00	2021-09-16 10:05:21+00:00	closed	[INFRA] codespell	DimitriPapadopoulos	1
+2968	2021-09-14 17:37:40+00:00	2021-10-05 09:18:19+00:00	closed	[INFRA] Add dev docs deployment job	NicolasGensollen	20
+2967	2021-09-14 09:57:35+00:00	2021-09-14 11:46:17+00:00	closed	[FIX] Fix sphinx errors in contributing docs	NicolasGensollen	0
+2966	2021-09-13 19:49:45+00:00	2021-09-16 07:48:32+00:00	closed	[FIX] LGTM warning: Missing variable declaration	DimitriPapadopoulos	2
+2963	2021-09-13 12:38:09+00:00	2021-09-14 13:33:16+00:00	closed	[FIX] Fix `get_data` in `get_clusters_table`	NicolasGensollen	1
+2961	2021-09-12 17:49:36+00:00	2021-09-13 09:00:39+00:00	closed	[FIX] LGTM warnings	DimitriPapadopoulos	0
+2960	2021-09-12 17:45:28+00:00	2021-09-13 07:12:01+00:00	closed	[FIX] LGTM warning: Variable defined multiple times	DimitriPapadopoulos	0
+2958	2021-09-12 16:59:13+00:00	2021-09-13 13:16:19+00:00	closed	[FIX] locals() → globals()	DimitriPapadopoulos	0
+2954	2021-09-10 10:20:17+00:00	2021-09-10 13:05:31+00:00	closed	[FIX] Fix typo and full doc build	NicolasGensollen	0
+2951	2021-09-08 18:44:53+00:00	2021-09-10 07:37:03+00:00	closed	[MAINT] Remove trailing spaces and empty lines	DimitriPapadopoulos	1
+2945	2021-09-01 12:58:33+00:00	2021-09-02 08:07:37+00:00	closed	[MAINT] Use SSH in doc Makefile	NicolasGensollen	0
+2944	2021-08-31 08:29:30+00:00	2021-09-03 08:19:03+00:00	closed	[MAINT] Update jquery version	NicolasGensollen	2
+2943	2021-08-27 15:34:03+00:00	2021-09-01 07:49:18+00:00	closed	[FIX] Fix missing title in `plot_surf`	NicolasGensollen	4
+2942	2021-08-27 12:19:34+00:00	2021-10-06 09:54:12+00:00	closed	[ENH] Allow custom HRF models	NicolasGensollen	39
+2938	2021-08-26 13:53:56+00:00	2021-08-27 08:38:46+00:00	closed	[MAINT] Clean and modernize `test_parcellations`	NicolasGensollen	0
+2936	2021-08-24 13:59:48+00:00	2021-08-25 07:54:25+00:00	closed	[DOC] Add missing `fill_doc` decorator	NicolasGensollen	0
+2935	2021-08-24 13:42:35+00:00	2021-08-25 19:37:21+00:00	closed	[FIX] Duplicate images in reports	NicolasGensollen	1
+2933	2021-08-23 06:46:16+00:00	2021-08-24 10:25:37+00:00	closed	[DOC] Canonical noqa syntax	DimitriPapadopoulos	1
+2932	2021-08-23 06:05:08+00:00	2021-08-24 08:31:53+00:00	closed	[FIX] LGTM recommendation: Unused local variable	DimitriPapadopoulos	1
+2931	2021-08-19 21:37:35+00:00	2021-08-24 14:32:01+00:00	closed	MAINT: Deal with mpl deprecation	larsoner	4
+2930	2021-08-19 18:43:45+00:00	2021-10-08 12:53:24+00:00	closed	[FIX] LGTM error: Non-iterable used in for loop	DimitriPapadopoulos	49
+2929	2021-08-19 17:02:20+00:00	2021-08-19 18:15:18+00:00	closed	ENH: Add stacklevel	larsoner	0
+2928	2021-08-19 13:52:52+00:00	2021-08-23 17:12:31+00:00	closed	Add pathlib.Path support for nilearn.datasets	RaphaelMeudec	4
+2927	2021-08-19 13:25:34+00:00	2021-08-19 14:13:42+00:00	closed	[FIX] LGTM warning: Missing variable declaration	DimitriPapadopoulos	0
+2925	2021-08-18 17:33:34+00:00	2021-08-19 20:12:59+00:00	closed	[FIX] LGTM warning: Comparison using is when operands support `__eq__`	DimitriPapadopoulos	1
+2924	2021-08-18 11:00:25+00:00	2021-08-18 14:31:08+00:00	closed	[FIX] LGTM error: Non-callable called	DimitriPapadopoulos	0
+2923	2021-08-17 14:16:50+00:00	2021-08-18 13:59:34+00:00	closed	"[FIX] use ""cls"" instead of ""self"" for @classmethod"	DimitriPapadopoulos	0
+2921	2021-08-17 11:47:17+00:00	2021-08-17 19:18:55+00:00	closed	[FIX] LGTM recommendations	DimitriPapadopoulos	0
+2920	2021-08-17 11:44:12+00:00	2021-08-18 18:02:51+00:00	closed	[FIX] LGTM warnings	DimitriPapadopoulos	1
+2919	2021-08-16 21:38:06+00:00	2021-08-17 19:49:01+00:00	closed	[FIX] LGTM errors	DimitriPapadopoulos	0
+2918	2021-08-16 21:02:20+00:00	2021-08-18 14:04:14+00:00	closed	[DOC] Typos found by codespell	DimitriPapadopoulos	1
+2917	2021-08-11 23:42:05+00:00	2021-08-23 19:36:47+00:00	closed	Flake fixes for GLM module	rob-luke	11
+2916	2021-08-11 22:06:49+00:00	2021-08-13 20:22:57+00:00	closed	fix comparison to string	drammock	1
+2912	2021-08-04 09:25:01+00:00	2021-08-06 09:47:27+00:00	closed	[MAINT] Fix CircleCI	NicolasGensollen	2
+2911	2021-08-03 17:44:25+00:00	2021-08-26 12:10:26+00:00	closed	[DOC] Improve docstrings of `regions` module	NicolasGensollen	22
+2910	2021-08-03 11:49:57+00:00	2021-08-25 10:28:13+00:00	closed	[DOC] fix typo in FirstLevelModel docstring	mekman	21
+2909	2021-08-03 11:23:38+00:00	2021-08-04 07:14:05+00:00	closed	[DOC] Add intersphinx link for joblib	NicolasGensollen	0
+2908	2021-08-02 13:52:44+00:00	2021-08-02 20:02:39+00:00	closed	[FIX] fix intersphinx links	NicolasGensollen	0
+2905	2021-07-29 15:58:08+00:00	2021-07-30 11:23:46+00:00	closed	[DOC] Fix dead link for localizer dataset	ltetrel	0
+2904	2021-07-27 15:28:20+00:00	2021-08-31 13:41:18+00:00	closed	[ENH] Add more options for `mask_strategy`	NicolasGensollen	34
+2903	2021-07-21 14:57:58+00:00	2021-07-26 08:50:51+00:00	closed	[INFRA] Add plotly and kaleido to dependencies	NicolasGensollen	4
+2902	2021-07-21 14:16:23+00:00	2021-10-20 10:04:43+00:00	closed	[ENH] Add Plotly support for surface plotting	NicolasGensollen	90
+2900	2021-07-19 17:18:25+00:00	2021-07-21 14:36:49+00:00	closed	Add bin_img to binarize images	dangom	1
+2897	2021-07-05 09:43:45+00:00	2021-08-03 08:03:42+00:00	closed	[DOC][MAINT] Standardize docstrings of `plotting` module	NicolasGensollen	28
+2896	2021-07-05 05:30:03+00:00	2021-07-05 09:36:42+00:00	closed	[FIX] fix broken link	NicolasGensollen	0
+2894	2021-06-30 16:14:00+00:00	2021-10-01 10:06:33+00:00	closed	Improve social-media links with `sphinxext-opengraph`	NicolasGensollen	90
+2893	2021-06-29 13:59:28+00:00	2021-07-19 16:18:50+00:00	closed	[DOC] Advertise for office hours in README	NicolasGensollen	20
+2892	2021-06-29 11:40:07+00:00	2021-06-29 13:32:43+00:00	closed	[FIX] Fix thresholding of MNI152 template when plotting	NicolasGensollen	0
+2888	2021-06-25 09:47:19+00:00	2021-06-25 14:02:05+00:00	closed	Remove threshold from docstring of `plot_epi`	NicolasGensollen	0
+2884	2021-06-24 11:26:47+00:00	2021-06-26 11:08:43+00:00	closed	[DOC] Decoding and introduction documentation enhancements	NicolasGensollen	1
+2880	2021-06-18 13:21:18+00:00	2021-11-29 09:14:28+00:00	closed	[ENH] NiftiMapsMasker Reporting	NicolasGensollen	90
+2878	2021-06-17 07:02:07+00:00	2021-06-18 06:50:45+00:00	closed	post-release 0.8.0	NicolasGensollen	0
+2877	2021-06-15 09:03:25+00:00	2021-06-16 13:03:11+00:00	closed	Release 0.8.0	NicolasGensollen	1
+2876	2021-06-14 17:56:00+00:00	2021-06-29 20:39:57+00:00	closed	[FIX] Fix view_img colorbar	NicolasGensollen	15
+2875	2021-06-14 14:53:19+00:00	2021-07-03 09:27:17+00:00	closed	[MAINT] Add `fill_doc` decorator	NicolasGensollen	18
+2873	2021-06-14 08:30:42+00:00	2021-06-14 17:12:21+00:00	closed	Rewrite the modulation warning as a print	NicolasGensollen	0
+2870	2021-06-10 09:55:38+00:00	2021-06-11 06:53:22+00:00	closed	Fix deprecation of decomposition `components_`	NicolasGensollen	0
+2869	2021-06-09 08:51:57+00:00	2021-06-15 06:42:13+00:00	closed	Drop support for Python 3.5	NicolasGensollen	5
+2868	2021-06-08 10:13:29+00:00	2021-06-09 20:11:20+00:00	closed	Remove deprecated function `fetch_nyu_rest`	NicolasGensollen	1
+2867	2021-06-08 08:19:23+00:00	2021-06-09 07:05:31+00:00	closed	Remove deprecated function `sym_to_vec`	NicolasGensollen	0
+2866	2021-06-08 06:38:07+00:00	2021-06-10 07:26:42+00:00	closed	[MRG] Add references to atlas.py	JLefortBesnard	2
+2864	2021-06-04 14:41:31+00:00	2021-06-08 06:52:23+00:00	closed	[MAINT] Add missing versions in some deprecation warnings	NicolasGensollen	3
+2861	2021-06-03 14:15:01+00:00	2021-06-08 08:49:51+00:00	closed	[MAINT] Rename master into main	NicolasGensollen	4
+2860	2021-05-31 16:08:30+00:00	2021-06-01 19:17:41+00:00	closed	[MAINT] Put pep8 checks in dedicated workflow	NicolasGensollen	1
+2859	2021-05-31 09:26:29+00:00	2022-01-17 15:03:57+00:00	closed	[ENH] Add `cbar_tick_format` to plotting functions	NicolasGensollen	90
+2856	2021-05-28 09:02:08+00:00	2021-05-31 06:49:08+00:00	closed	[MAINT] Run tests, doctests, and flake8 diff in their own steps	NicolasGensollen	2
+2854	2021-05-27 08:35:21+00:00	2021-06-28 17:08:15+00:00	closed	ARM arch testing	NicolasGensollen	32
+2851	2021-05-21 08:30:37+00:00	2021-05-25 08:23:14+00:00	closed	[MAINT] Restrict data caching to full builds	NicolasGensollen	3
+2850	2021-05-21 08:07:34+00:00	2021-09-02 10:29:17+00:00	closed	[MAINT] unpin sphinx version	NicolasGensollen	90
+2848	2021-05-20 12:08:28+00:00	2021-05-26 18:17:28+00:00	closed	[MAINT] Clean CI tools	NicolasGensollen	6
+2845	2021-05-19 11:46:53+00:00	2021-05-21 07:54:09+00:00	closed	Add issue assignment action	NicolasGensollen	1
+2843	2021-05-17 13:54:24+00:00	2021-05-18 05:38:07+00:00	closed	Pin sphinx version on circleCI	NicolasGensollen	0
+2836	2021-05-12 09:27:00+00:00	2021-05-20 13:10:53+00:00	closed	Replace mktemp with mkstemp	NicolasGensollen	8
+2831	2021-05-08 05:57:47+00:00	2021-05-11 14:56:08+00:00	closed	BUG: Don't automatically sort `cut_coords` into ascending order	Craskermasker	3
+2829	2021-05-07 17:24:17+00:00	2022-01-28 13:17:04+00:00	closed	[FIX] Replace numpy with pandas in data loaders	achamma723	90
+2826	2021-05-07 16:50:44+00:00	2021-06-03 07:10:19+00:00	closed	[MRG] Bugfix Decoder Dummy Classifier	tbng	26
+2825	2021-05-07 16:31:56+00:00	2021-05-08 08:05:40+00:00	closed	[FIX] Fix docstring in plot_surf	NicolasGensollen	0
+2823	2021-05-07 14:04:31+00:00	2021-05-11 06:00:24+00:00	closed	[DOC] Issue 2692 unpaired/paired example	psadil	3
+2822	2021-05-07 12:39:56+00:00	2021-05-10 08:05:23+00:00	closed	DOC: add plot_events to example	Craskermasker	2
+2819	2021-05-07 07:29:17+00:00	2021-05-07 10:57:27+00:00	closed	BUG: fix sphinx reference	Craskermasker	0
+2817	2021-05-07 07:15:51+00:00	2021-05-07 08:28:29+00:00	closed	[DOC] Convert references in nilearn/connectome to bibtex format	alexenge	0
+2812	2021-05-06 16:06:59+00:00	2021-05-10 21:21:42+00:00	closed	Docstring fixes	RaphaelMeudec	4
+2811	2021-05-06 16:01:06+00:00	2021-05-06 17:38:44+00:00	closed	DOC: convert references to sphinx bibtex	Craskermasker	0
+2810	2021-05-06 14:26:25+00:00	2021-05-21 13:41:15+00:00	closed	Generate colors and colorscale for view_connectome	RaphaelMeudec	14
+2809	2021-05-06 13:55:13+00:00	2021-05-06 16:11:14+00:00	closed	[DOC] Convert references in nilearn/plotting to bibtex format	alexenge	0
+2808	2021-05-06 13:31:49+00:00	2021-05-07 06:54:00+00:00	closed	DOC: add links to github using sphinx.ext.linkcode	Craskermasker	0
+2806	2021-05-06 11:10:39+00:00	2021-05-31 10:55:23+00:00	closed	[MRG]Add references to atlas.py and reference.bib	JLefortBesnard	24
+2805	2021-05-06 09:21:06+00:00	2021-05-06 21:06:36+00:00	closed	WIP: Pass through vol_to_surf_kwargs	Craskermasker	0
+2800	2021-05-05 20:16:08+00:00	2021-05-06 06:34:22+00:00	closed	DOC: fix ref in whats_new	Craskermasker	0
+2799	2021-05-05 20:10:52+00:00	2021-05-05 23:07:09+00:00	closed	[DOC] Mention vol_to_surf in plot_surf* function docstrings	psadil	0
+2798	2021-05-05 19:43:20+00:00	2021-05-20 23:32:29+00:00	closed	[FIX] Eliminate axis cutoff in Example 9.2.15.9	tvanasse	15
+2796	2021-05-05 15:38:32+00:00	2021-05-05 17:09:38+00:00	closed	Use bibtex in nilearn/decoding #2781	Craskermasker	0
+2792	2021-05-05 09:34:24+00:00	2021-05-05 15:37:08+00:00	closed	First Level get_voxelwise_model_attribute should return as many elements as # design matrices	RaphaelMeudec	0
+2773	2021-04-29 10:39:16+00:00	2021-04-29 12:21:32+00:00	closed	Fix artifact redirect action	NicolasGensollen	0
+2766	2021-04-21 08:57:42+00:00	2021-04-27 07:22:39+00:00	closed	[MAINT] Remove numpy type deprecation warnings	NicolasGensollen	5
+2765	2021-04-19 15:33:28+00:00	2021-04-28 07:12:04+00:00	closed	Improve testing and coverage of glm second level	NicolasGensollen	8
+2764	2021-04-16 14:50:45+00:00	2021-04-19 09:39:04+00:00	closed	Improve testing/coverage of first level glm	NicolasGensollen	2
+2759	2021-04-13 08:38:41+00:00	2021-05-01 08:15:55+00:00	closed	[DOC][MRG] Configure bibtex references	NicolasGensollen	17
+2758	2021-04-12 13:24:21+00:00	2021-04-12 17:56:38+00:00	closed	[FIX] Fix glossary broken refs	NicolasGensollen	0
+2756	2021-04-12 07:51:18+00:00	2021-04-12 11:17:49+00:00	closed	[FIX][MAINT] Fix typo in CircleCI script	NicolasGensollen	0
+2755	2021-04-09 16:03:02+00:00	2021-09-13 16:16:06+00:00	closed	[MRG] Contribution documentation reworking	thomasbazeille	90
+2752	2021-04-07 11:45:56+00:00	2021-04-19 07:43:48+00:00	closed	[MRG][MAINT] Split CircleCI data cache	NicolasGensollen	11
+2751	2021-04-02 12:26:08+00:00	2021-04-03 09:28:10+00:00	closed	[FIX] XML ElementTree iterator	NicolasGensollen	0
+2749	2021-04-02 10:00:16+00:00	2021-04-04 10:51:19+00:00	closed	[MAINT] Test with Python 3.9	NicolasGensollen	2
+2745	2021-03-31 03:06:10+00:00	2021-04-09 06:58:34+00:00	closed	add marker labels to connectome plot	greydongilmore	9
+2743	2021-03-29 13:34:26+00:00	2021-03-31 07:35:59+00:00	closed	handle nans in plot_surf_roi	NicolasGensollen	1
+2740	2021-03-25 08:44:43+00:00	2021-03-26 14:00:18+00:00	closed	[MAINT] matplotlib will soon drop inverse_transformed	kimsin98	1
+2738	2021-03-20 00:13:55+00:00	2021-06-28 18:21:52+00:00	closed	ENH: compute grey and white matter masks	alpinho	90
+2735	2021-03-19 08:58:49+00:00	2021-03-23 08:11:24+00:00	closed	[MAINT] numpy types deprecations	NicolasGensollen	3
+2734	2021-03-18 11:40:33+00:00	2021-04-07 06:42:23+00:00	closed	[MAINT][MRG] Reduce CircleCI build time	NicolasGensollen	19
+2732	2021-03-12 18:16:47+00:00	2021-05-05 07:27:27+00:00	closed	Detrending before low and high pass filtering for the confounders in clean function	jrasero	53
+2731	2021-03-12 18:07:32+00:00	2021-04-12 06:51:53+00:00	closed	[DOC][MRG] Add glossary	NicolasGensollen	30
+2729	2021-03-10 15:38:22+00:00	2021-04-05 10:32:15+00:00	closed	Add Pypi badge	NicolasGensollen	25
+2728	2021-03-10 15:19:54+00:00	2021-03-10 16:51:17+00:00	closed	post-release 0.7.1	NicolasGensollen	0
+2727	2021-03-10 11:17:23+00:00	2021-03-10 13:11:07+00:00	closed	Release 0.7.1	NicolasGensollen	0
+2723	2021-03-09 00:17:53+00:00	2021-09-15 10:11:12+00:00	closed	Add Juelich Atlas	achamma723	90
+2722	2021-03-08 18:14:04+00:00	2021-03-15 09:11:44+00:00	closed	[DOC] Add guidelines in doc for making new releases of Nilearn	NicolasGensollen	6
+2716	2021-03-03 08:38:14+00:00	2021-03-04 08:31:42+00:00	closed	Fix whatsnew entry with public function reference	NicolasGensollen	0
+2710	2021-02-22 22:34:35+00:00	2021-02-24 08:56:41+00:00	closed	Raise warning for FirstLevelModel fit when confounds and design_matrices are both specified	achamma723	1
+2709	2021-02-20 12:27:00+00:00	2021-02-23 18:47:40+00:00	closed	Fixes numpy runtime warning in masking.py when img has NaNs.	fkalbe	3
+2708	2021-02-20 00:59:54+00:00	2021-02-25 08:37:12+00:00	closed	"Solving ""NiftiMapsMasker and NiftiLabelsMasker cannot transform 3D images"""	achamma723	5
+2707	2021-02-19 18:13:02+00:00	2021-06-13 10:15:10+00:00	closed	[MRG][ENH] NiftiLabelsMasker Reporting	NicolasGensollen	90
+2706	2021-02-19 12:02:29+00:00	2021-02-22 10:14:23+00:00	closed	fix sampling in generate_fake_fmri_data_and_design	NicolasGensollen	2
+2703	2021-02-17 19:00:02+00:00	2021-03-01 10:09:03+00:00	closed	[MRG] Allow asymmetric matrices in plot_connectome	NicolasGensollen	11
+2701	2021-02-17 18:18:55+00:00	2021-02-18 09:04:59+00:00	closed	[FIX] get_clusters_table: ensure input is 3D and accept filenames	jdkent	0
+2697	2021-02-16 14:49:24+00:00	2021-02-23 09:29:11+00:00	closed	[MRG] High variance confounds in maskers	NicolasGensollen	6
+2696	2021-02-16 10:35:06+00:00	2021-02-26 07:54:18+00:00	closed	Resampling functionality for NeuroVault	RaphaelMeudec	9
+2694	2021-02-12 10:11:53+00:00	2021-02-16 09:08:41+00:00	closed	Warn in nifti masker report when no image provided to fit	NicolasGensollen	3
+2691	2021-02-10 10:00:12+00:00	2021-02-19 09:20:24+00:00	closed	[MRG] Handle nans in surf plotting	NicolasGensollen	8
+2688	2021-02-07 01:21:43+00:00	2021-02-12 09:05:51+00:00	closed	fix for FirstLevelModel compute_contrast for multiple runs with varying matrice size or columns	bpinsard	5
+2680	2021-02-02 17:56:51+00:00	2021-02-05 09:57:45+00:00	closed	[MRG] Glm duplicate events	NicolasGensollen	2
+2679	2021-02-02 08:45:46+00:00	2021-02-02 20:00:22+00:00	closed	[MRG] Fix failures due to numpy 1.20	NicolasGensollen	0
+2672	2021-01-26 16:45:15+00:00	2021-02-03 09:28:01+00:00	closed	[MRG] Add Surface object	NicolasGensollen	7
+2670	2021-01-25 18:35:29+00:00	2021-01-28 17:31:46+00:00	closed	Check events warns for invalid fields	NicolasGensollen	2
+2669	2021-01-25 10:53:08+00:00	2021-01-29 09:06:55+00:00	closed	Override the decoder score method	NicolasGensollen	3
+2664	2021-01-20 14:10:04+00:00	2021-01-21 20:32:05+00:00	closed	Enh update badges	NicolasGensollen	1
+2663	2021-01-18 13:35:57+00:00	2021-01-20 08:25:09+00:00	closed	Deprecate numpy arrays and bytes in datasets module	NicolasGensollen	1
+2661	2021-01-15 14:28:29+00:00	2021-01-21 17:34:55+00:00	closed	Fix find xyz cut coords function	NicolasGensollen	6
+2659	2021-01-14 16:01:35+00:00	2021-01-20 11:41:35+00:00	closed	Fix unset attributes for check embedded nifti masker	NicolasGensollen	5
+2657	2021-01-11 14:04:40+00:00	2021-01-14 08:23:00+00:00	closed	Allow array for node color in plot connectome	NicolasGensollen	2
+2656	2021-01-11 11:28:58+00:00	2021-03-08 08:50:21+00:00	closed	bugfix resample only if type is not contour or contourf	NicolasGensollen	55
+2655	2021-01-07 15:29:01+00:00	2022-01-09 10:32:54+00:00	closed	change dataset description from bytes to str	NicolasGensollen	90
+2654	2021-01-07 08:51:58+00:00	2021-01-11 08:54:52+00:00	closed	Add new issue templates	NicolasGensollen	4
+2650	2021-01-05 10:03:11+00:00	2021-01-05 16:49:37+00:00	closed	drop Python 3.5 in release 0.8.0	NicolasGensollen	0
+2649	2021-01-05 09:48:56+00:00	2021-01-22 14:53:06+00:00	closed	[MRG] Docstring default values	NicolasGensollen	17
+2643	2020-12-23 14:29:54+00:00	2021-01-04 13:30:35+00:00	closed	Add cbar_tick_format arg to plot_surf	NicolasGensollen	11
+2641	2020-12-22 16:19:40+00:00	2020-12-23 08:21:45+00:00	closed	Raise matplotlib import error instead of pytest	NicolasGensollen	0
+2640	2020-12-17 14:47:24+00:00	2020-12-22 18:24:15+00:00	closed	[ENH] Harmonize short repr of niimgs	NicolasGensollen	5
+2639	2020-12-16 13:35:27+00:00	2021-01-05 14:52:27+00:00	closed	[MRG] BugFix random walker with isolated seeds	NicolasGensollen	20
+2638	2020-12-15 17:20:37+00:00	2020-12-15 21:02:58+00:00	closed	FIX: Remove missing name	larsoner	0
+2636	2020-12-14 14:21:18+00:00	2020-12-17 09:05:58+00:00	closed	[WIP] Add verbosity and progress to mass-univariate	NicolasGensollen	2
+2634	2020-12-11 15:53:01+00:00	2020-12-21 09:48:39+00:00	closed	Make _get_safe_data consistent	NicolasGensollen	9
+2633	2020-12-09 15:19:08+00:00	2020-12-28 17:42:07+00:00	closed	[MRG] Move tests to Github Actions	NicolasGensollen	19
+2630	2020-12-08 09:06:42+00:00	2020-12-08 21:16:50+00:00	closed	Fix label names in issue templates	NicolasGensollen	0
+2625	2020-12-03 15:02:03+00:00	2020-12-04 10:16:58+00:00	closed	Fix example 9.3.12	NicolasGensollen	0
+2619	2020-11-26 11:01:20+00:00	2020-12-09 08:01:33+00:00	closed	[MRG] Add DiFuMo atlases	NicolasGensollen	12
+2617	2020-11-25 09:07:19+00:00	2020-11-25 14:47:44+00:00	closed	Delete duplicate example	NicolasGensollen	0
+2616	2020-11-24 02:31:38+00:00	2020-11-24 08:07:31+00:00	closed	Update plot_fir_model.py	Qin-Ming	0
+2613	2020-11-19 17:17:45+00:00	2020-11-25 14:53:30+00:00	closed	Glm reports return HTMLReports	NicolasGensollen	5
+2611	2020-11-17 15:48:19+00:00	2020-11-18 07:18:52+00:00	closed	Remove the check URL step from github workflow	NicolasGensollen	0
+2609	2020-11-16 10:53:48+00:00	2020-12-09 21:53:48+00:00	closed	[MRG] Systematic confounds standardization	NicolasGensollen	23
+2604	2020-11-13 08:17:55+00:00	2020-11-13 10:31:30+00:00	closed	Call load_surf_data in plot_stat_map before _get_colorbar_and_data_ra…	NicolasGensollen	0
+2600	2020-11-12 14:43:51+00:00	2020-11-12 17:19:20+00:00	closed	Add tests matplotlib dev	NicolasGensollen	0
+2597	2020-11-12 10:12:10+00:00	2020-11-12 11:15:34+00:00	closed	Update news and add links to whats new	NicolasGensollen	0
+2596	2020-11-12 09:56:51+00:00	2020-11-12 10:25:34+00:00	closed	restore github workflow	NicolasGensollen	0
+2591	2020-11-12 08:38:31+00:00	2020-11-12 08:57:52+00:00	closed	Change _facecolors3d to _facecolor3d in surf_plotting	NicolasGensollen	0
+2583	2020-10-20 12:53:09+00:00	2020-11-06 13:01:35+00:00	closed	BUG: Fix for latest matplotlib	larsoner	17
+2582	2020-10-20 12:27:25+00:00	2020-10-21 16:45:11+00:00	closed	FIX: Avoid colormap readd	larsoner	1
+2576	2020-10-06 13:48:52+00:00	2020-10-19 15:18:15+00:00	closed	[FIX] Update confounds filename following `fmriprep`	mathias-sm	13
+2574	2020-09-30 19:30:13+00:00	2020-10-06 19:18:08+00:00	closed	[WIP] Ensure that random number generation in tests is seeded & standardized	chouhanaryan	5
+2571	2020-09-26 06:50:00+00:00	2020-09-26 19:42:53+00:00	closed	Removing fake sklearn import	thomasbazeille	0
+2570	2020-09-26 06:17:40+00:00	2020-09-30 06:30:44+00:00	closed	[MRG] Renaming fREM => FREM + improving what's new	thomasbazeille	4
+2567	2020-09-19 15:28:48+00:00	2020-12-18 12:49:29+00:00	closed	FIXUP: innacurate z-values for big p-values	alpinho	89
+2566	2020-09-19 14:50:36+00:00	2020-09-20 20:43:36+00:00	closed	don't use is to compare strings	agramfort	1
+2565	2020-09-17 15:47:21+00:00	2020-09-29 11:09:55+00:00	closed	[MRG+1] Rewritten two decoding examples for adaptation to Decoder object:	tbng	11
+2561	2020-09-01 23:33:20+00:00	2020-09-16 14:39:38+00:00	closed	BUG: Dont set backend on macOS	larsoner	14
+2557	2020-08-19 20:09:55+00:00	2020-08-20 12:13:55+00:00	closed	MNT: Rename setattr_on_read -> auto_attr	effigies	0
+2553	2020-08-06 13:20:35+00:00	2020-12-12 16:01:37+00:00	closed	[FIX] Design matrices are wrong if multiple events in the same regressor have the same onset or offset	mwegrzyn	90
+2549	2020-08-03 12:33:28+00:00	2020-09-30 20:26:21+00:00	closed	[MRG] Fixed bug related to  get_clusters_table	kbonna	58
+2532	2020-07-01 07:51:01+00:00	2021-06-01 07:09:47+00:00	closed	WIP: Add higher order AR noise models to run_glm	rob-luke	90
+2521	2020-06-09 19:26:52+00:00	2020-06-11 13:57:23+00:00	closed	BUG: Escape chars	larsoner	1
+2510	2020-05-29 19:40:17+00:00	2020-05-30 16:03:19+00:00	closed	updated plotly images to match the new look	orduek	0
+2509	2020-05-29 18:14:37+00:00	2020-06-21 16:28:29+00:00	closed	[ENH] API change: nilearn.stats -> nilearn.glm	tbng	22
+2504	2020-05-28 23:44:39+00:00	2020-09-25 06:21:50+00:00	closed	Glm docs	swaythe	90
+2500	2020-05-28 13:47:54+00:00	2020-06-10 14:53:01+00:00	closed	[MRG] Replacing plot_connectome_strength with plot_markers function	kbonna	13
+2497	2020-05-27 01:37:55+00:00	2020-07-30 21:35:01+00:00	closed	[add feature] support decimal for position annotation.	dvm-shlee	64
+2496	2020-05-26 15:11:06+00:00	2020-06-11 18:09:11+00:00	closed	[MRG] Surface contours	mjboos	16
+2486	2020-05-23 12:48:11+00:00	2020-05-23 16:03:15+00:00	closed	Fixed colorbar aesthetics on a black backgroud	kfinc	0
+2477	2020-05-21 18:01:38+00:00	2020-06-30 22:16:31+00:00	closed	Surface plots	ZviBaratz	40
+2476	2020-05-21 17:44:49+00:00	2020-09-25 11:23:07+00:00	closed	[RVW] Update Decoding Userguide (using Decoder)	thomasbazeille	90
+2474	2020-05-21 16:27:14+00:00	2021-01-25 14:40:39+00:00	closed	changing surface mesh from a list to a namedtuple	juhuntenburg	90
+2469	2020-05-21 10:43:20+00:00	2020-07-22 06:12:28+00:00	closed	WIP: Inverse spheres masker	SRSteinkamp	61
+2459	2020-05-20 18:51:58+00:00	2020-05-21 20:27:05+00:00	closed	FIXUP: rename Nilearn.masking.compute_gray_matter_mask	alpinho	1
+2457	2020-05-20 17:50:31+00:00	2020-06-25 20:35:14+00:00	closed	ENH: added plot_event function 	robbisg	36
+2451	2020-05-20 14:53:56+00:00	2020-05-22 19:19:29+00:00	closed	[ENH] bug fixing on Decoder module:	tbng	2
+2450	2020-05-20 12:47:15+00:00	2020-05-20 20:27:55+00:00	closed	Documentation Fixes	ZviBaratz	0
+2449	2020-05-20 12:21:35+00:00	2020-05-21 08:17:19+00:00	closed	Fix: CanICA ensure valid percentile	ChristianGerloff	0
+2448	2020-05-20 11:43:15+00:00	2020-05-20 16:23:14+00:00	closed	DOC: fixed docstring typo	robbisg	0
+2447	2020-05-20 10:20:30+00:00	2020-05-21 18:55:28+00:00	closed	Remove deprecated `fetch_surf_fsaverage5` 	jnecus	1
+2441	2020-05-15 08:52:25+00:00	2020-05-15 13:25:21+00:00	closed	seed fREM default cv generator for stability and reproducibility	thomasbazeille	0
+2435	2020-05-12 08:50:34+00:00	2020-09-16 20:08:39+00:00	closed	Addition of cortical surface-based searchlight, with example Surfsearchlight dev	kingjr	90
+2432	2020-05-03 05:32:01+00:00	2020-05-03 07:43:44+00:00	closed	Add high_pass to docs for make_first_level_design_matrix	rob-luke	0
+2431	2020-05-01 17:41:02+00:00	2020-05-02 09:48:03+00:00	closed	Fix colorbar cropping in matplotlib 3.2.0	ariekahn	0
+2349	2020-03-27 15:56:10+00:00	2020-03-28 11:55:16+00:00	closed	"Typo in AUTHORS.rst ""gitub"""	vsoch	0
+2332	2020-03-10 23:24:24+00:00	2021-01-22 09:00:20+00:00	closed	Allow markers only in their respective hemisphere when appropriate	vagechirkov	90
+2327	2020-03-05 18:00:27+00:00	2020-05-11 21:48:01+00:00	closed	[ENH, MRG] fREM 	thomasbazeille	67
+2325	2020-03-02 01:55:15+00:00	2020-03-02 13:09:14+00:00	closed	CI: Fix name	larsoner	0
+2324	2020-02-29 12:28:44+00:00	2020-03-01 22:20:19+00:00	closed	Remove Empty Test Case	jayanthchandra	1
+2323	2020-02-28 15:08:05+00:00	2020-03-28 17:44:35+00:00	closed	Merged plot_decoding_tutorial.py and plot_haxby_decoder.py	tbng	29
+2317	2020-02-26 18:34:46+00:00	2020-02-27 04:01:22+00:00	closed	Import ABC from collections.abc instead of collections for Python 3.9 compatibility.	tirkarthi	0
+2312	2020-02-18 13:05:32+00:00	2020-02-18 18:03:59+00:00	closed	[MRG] DOC: Fix affine transformation example typo	jhlegarreta	0
+2308	2020-02-13 20:22:43+00:00	2020-02-24 16:28:17+00:00	closed	Deprecates fetch_nyu_rest	jbteves	10
+2306	2020-02-11 09:02:37+00:00	2020-02-12 19:23:49+00:00	closed	[DOC] updated reference Seitzman 2018	fliem	1
+2301	2020-01-30 14:23:03+00:00	2020-01-30 15:51:01+00:00	closed	Tiny typo fix (ouside -> outside)	ZviBaratz	0
+2282	2019-12-31 14:59:21+00:00	2022-01-25 09:24:15+00:00	closed	[MRG][ENH] Include Hierarchical KMeans in regions.Parcellations	thomasbazeille	90
+2262	2019-12-06 18:12:05+00:00	2019-12-07 20:47:48+00:00	closed	Update CONTRIBUTING.rst	ltetrel	1
+2260	2019-12-06 14:56:53+00:00	2019-12-08 10:03:50+00:00	closed	typo + changes for plot_decoding_tutorial	ltetrel	1
+2257	2019-12-05 20:17:49+00:00	2019-12-07 22:27:33+00:00	closed	[documentation] Searchlight user guide	danjgale	2
+2235	2019-11-28 08:20:25+00:00	2019-12-02 19:17:32+00:00	closed	Argument version='det' in pauli 2017 atlas now works correctly	ryanhammonds	4
+2234	2019-11-27 12:16:31+00:00	2019-11-28 00:49:55+00:00	closed	Improved nifti masker documentation	JohannesWiesner	0
+2228	2019-11-21 22:46:43+00:00	2019-11-25 02:03:50+00:00	closed	CI: Use pkg_resources to list installed dependencies	effigies	3
+2224	2019-11-20 19:19:08+00:00	2019-11-24 11:20:54+00:00	closed	CI: Test pre-release versions of dependencies	effigies	3
+2223	2019-11-20 08:04:06+00:00	2019-11-21 03:33:42+00:00	closed	[DOC] Add note about decreasing memory usage	dPys	0
+2221	2019-11-19 04:19:34+00:00	2019-12-02 09:21:37+00:00	closed	"Add parameter ""strategy"" to NiftiLabelsMasker to choose function to reduce ROIs"	dangom	13
+2219	2019-11-18 18:15:15+00:00	2019-11-21 09:18:40+00:00	closed	MAINT: sklearn Deprecations	larsoner	2
+2186	2019-10-17 16:31:33+00:00	2019-10-28 09:39:50+00:00	closed	FIX: marker size issue in plot_connectome #2185	robbisg	10
+2138	2019-09-21 13:51:48+00:00	2019-09-25 18:41:45+00:00	closed	Update Schaefer parcelation to v0.14.3	danjgale	4
+2131	2019-09-11 13:56:40+00:00	2019-09-25 18:39:55+00:00	closed	MAINT: Future-compatible cmap reversal	larsoner	14
+2118	2019-08-14 16:56:34+00:00	2019-08-28 20:55:41+00:00	closed	fix wrong urls in nki dataset	juhuntenburg	14
+2107	2019-07-25 00:15:07+00:00	2019-11-23 12:18:12+00:00	closed	Fix:  nilearn.image.smooth_img fails if fwhm is an ndarray	pausz	90
+2102	2019-07-24 06:55:21+00:00	2019-07-24 10:37:53+00:00	closed	Set verbose=1 to fetchers	mrahim	0
+2097	2019-07-22 14:06:30+00:00	2019-10-09 09:54:46+00:00	closed	Brainomics fetcher	AGrigis	78
+2091	2019-07-17 20:50:42+00:00	2019-07-19 20:26:12+00:00	closed	Add copy=True parameter to threshold_img	dangom	1
+2089	2019-07-17 09:34:24+00:00	2019-07-17 12:03:41+00:00	closed	fix 2082: vol_to_surf samples out of image np.round to np.floor	celinede	0
+2083	2019-07-11 21:32:46+00:00	2019-08-07 12:06:04+00:00	closed	Fix matrix plotting labels	mjboos	26
+2072	2019-06-09 20:49:29+00:00	2019-06-13 08:17:50+00:00	closed	Correct typos and re-word Smoothing step in ROI mask recipe	reiningc	3
+2052	2019-05-03 16:00:35+00:00	2019-10-08 14:25:41+00:00	closed	Add check for vmin, vmax in plot_surf_roi	boredStats	90
+2035	2019-04-19 14:28:51+00:00	2019-11-09 19:52:18+00:00	closed	[WIP] Modify fetch_development_fmri to fetch adults or children	illdopejake	90
+2032	2019-04-19 10:14:41+00:00	2019-05-01 15:59:11+00:00	closed	Added a fetcher for the fsaverage spherical meshes	SylvainTakerkart	12
+2028	2019-04-18 11:49:16+00:00	2019-10-14 13:53:35+00:00	closed	[WIP] ENH: add connectome strength plot	glemaitre	90
+2027	2019-04-18 09:03:18+00:00	2019-04-18 11:59:39+00:00	closed	Minor correction in test_searchlight.py	SylvainTakerkart	0
+2026	2019-04-18 08:34:25+00:00	2019-04-18 16:19:51+00:00	closed	Enh/surface path globbing	juhuntenburg	0
+2025	2019-04-17 16:48:22+00:00	2019-04-19 13:54:42+00:00	closed	Avoiding resampling for identity transforms with integer translations	gkiar	1
+2016	2019-04-17 10:45:50+00:00	2019-04-17 14:29:28+00:00	closed	[FIX] t_r in examples using the development dataset	fliem	0
+2015	2019-04-17 10:44:12+00:00	2019-04-17 13:33:48+00:00	closed	[MRG] Moving nilearn.decoding.objective_functions._unmask to nilearn.masking._unmask_from_to_3d_array	thomasbazeille	0
+2013	2019-04-17 09:56:30+00:00	2019-04-18 19:30:36+00:00	closed	Nilearn sprint example consolidation	illdopejake	1
+2001	2019-04-16 14:32:06+00:00	2019-04-18 10:08:00+00:00	closed	organizing functions for testing surface code	juhuntenburg	1
+2000	2019-04-16 14:14:01+00:00	2020-02-26 15:12:40+00:00	closed	[ENH] Continuation of  Decoder:Metaestimator	tbng	90
+1999	2019-04-16 14:12:32+00:00	2019-04-17 14:02:46+00:00	closed	[ENH] Selected confounds	fliem	0
+1997	2019-04-16 12:54:26+00:00	2019-04-18 16:08:13+00:00	closed	[MRG] Fix/surf plot thresholds	juhuntenburg	2
+1991	2019-04-15 14:17:25+00:00	2019-04-16 15:48:40+00:00	closed	Fix/plot surf roi	juhuntenburg	1
+1990	2019-04-15 13:44:35+00:00	2019-04-16 09:38:16+00:00	closed	[FIX] revert fwhm for dosenbach example back to 4mm	fliem	0
+1983	2019-04-15 08:43:11+00:00	2019-05-14 11:59:49+00:00	closed	[MRG] ReNA_mrg	ja-che	29
+1973	2019-04-13 11:55:22+00:00	2019-04-14 07:58:30+00:00	closed	[MRG+2] FIX : new_img_like broken with mgz files	agramfort	0
+1963	2019-04-10 14:53:11+00:00	2019-04-15 08:16:52+00:00	closed	[MRG+1] add plotting of a connectome using a surface atlas on fsaverage	agramfort	4
+1962	2019-04-09 04:38:37+00:00	2019-05-16 03:01:39+00:00	closed	[MRG+1] Seitzman atlas fetcher	fliem	36
+1952	2019-03-25 09:45:47+00:00	2019-08-07 17:18:12+00:00	closed	[ENH] Percent signal change from ROIs in single commit	Gilles86	90
+1943	2019-03-11 13:32:52+00:00	2019-04-15 08:39:19+00:00	closed	FIXUP: description of low and high pass filter in signal.clean()	alpinho	34
+1942	2019-03-11 13:31:43+00:00	2019-08-28 21:00:46+00:00	closed	ENH: added links to signal.clean() in NiftiMasker docstring	alpinho	90
+1936	2019-03-06 18:04:36+00:00	2019-03-07 15:02:37+00:00	closed	therehold_map_ratio should not change input image	salma1601	0
+1932	2019-02-28 13:49:10+00:00	2019-03-16 10:58:27+00:00	closed	RegionExtractor mask img	salma1601	15
+1927	2019-02-19 17:34:20+00:00	2019-02-19 21:09:07+00:00	closed	Proper citation for Brainomics/Localizer dataset	DimitriPapadopoulos	0
+1924	2019-02-18 04:20:37+00:00	2019-02-18 18:26:09+00:00	closed	Update html_stat_map.py	pbellec	0
+1921	2019-02-14 16:19:51+00:00	2019-02-22 10:36:57+00:00	closed	[ENH] Add Schaefer atlas	fliem	7
+1917	2019-02-07 05:48:34+00:00	2019-02-12 10:50:42+00:00	closed	whats_new.rst update - transform_single_imgs	nagaflokhu	5
+1914	2019-02-06 04:30:52+00:00	2019-02-06 21:34:53+00:00	closed	Remove temporary variable imgs_ from memory	nagaflokhu	0
+1906	2019-01-18 17:18:32+00:00	2019-01-29 16:50:38+00:00	closed	Fix for  Masker family reloaded: NiftiSpheresMasker silently ignores voxels	geekypathak21	10
+1898	2019-01-14 16:32:38+00:00	2019-01-15 14:29:25+00:00	closed	FIX: Fix abc import	larsoner	0
+1892	2019-01-04 02:01:49+00:00	2019-02-04 10:26:04+00:00	closed	FIX: Calculate image data dtype from header information	effigies	31
+1872	2018-11-28 00:48:04+00:00	2019-02-08 06:46:08+00:00	closed	load_niimg drops header if dtype is changed	wiheto	72
+1869	2018-11-21 18:10:05+00:00	2019-01-29 13:20:04+00:00	closed	[MRG] Issue #1822: volumetric plot arrangement	setina42	68
+1858	2018-11-13 05:40:21+00:00	2018-11-14 10:08:49+00:00	closed	"Removing the ""value"" annotation in view_stat_map"	pbellec	1
+1842	2018-10-25 19:40:52+00:00	2018-10-31 15:22:34+00:00	closed	[MRG] ENH: Adds mask parameter to image.clean_img	miykael	5
+1837	2018-10-22 19:20:14+00:00	2018-10-23 20:29:28+00:00	closed	[MRG+1] ENH: Corrects order and behavior of filters in `nilearn.signal.clean`	miykael	1
+1834	2018-10-21 18:31:05+00:00	2018-10-23 19:37:03+00:00	closed	Improve error message of vol_to_surf when input is wrong	geekypathak21	2
+1830	2018-10-20 19:21:15+00:00	2018-10-23 06:04:24+00:00	closed	[MRG+1] Sets default value of t_r in singal.clean and image.clean_img to None	miykael	2
+1823	2018-10-18 17:57:23+00:00	2018-10-18 19:55:35+00:00	closed	Typos	TheChymera	0
+1811	2018-10-14 05:14:33+00:00	2018-10-18 09:17:56+00:00	closed	add support for fill value in resampling tools	pbellec	4
+1795	2018-10-12 15:35:26+00:00	2018-10-12 22:16:47+00:00	closed	[MRG+1] FIX: Fewer warnings	larsoner	0
+1775	2018-10-08 09:30:58+00:00	2018-10-08 09:40:59+00:00	closed	DOC: correct example coord_transform	glemaitre	0
+1773	2018-10-05 11:03:41+00:00	2018-10-08 09:42:55+00:00	closed	[MRG] DOC: fix spelling	glemaitre	2
+1767	2018-10-01 01:06:12+00:00	2018-10-13 21:44:29+00:00	closed	Add NiftiMasker ref to signals_to_img_labels	souravsingh	12
+1766	2018-09-28 04:53:45+00:00	2018-11-10 07:22:56+00:00	closed	switch from papaya to brainsprite in plotting.view_stat_map	pbellec	43
+1758	2018-09-13 13:48:27+00:00	2018-10-11 16:18:50+00:00	closed	BUG: Fix alpha for transparent colormaps	larsoner	28
+1747	2018-08-31 21:06:31+00:00	2018-09-04 16:00:37+00:00	closed	Fix open_in_browser()	dtyulman	3
+1743	2018-08-29 20:08:23+00:00	2018-10-14 06:42:50+00:00	closed	[ENH] Add scale bar to plotting displays	oesteban	45
+1741	2018-08-27 14:42:25+00:00	2018-08-28 06:25:16+00:00	closed	Update surf_plotting.py	pbellec	0
+1732	2018-08-08 22:32:19+00:00	2018-08-10 13:53:50+00:00	closed	[MRG] fix searchlight to handle list of 3D images by adding check_niimg_4d	danjgale	1
+1718	2018-08-02 22:15:45+00:00	2018-08-03 00:28:19+00:00	closed	Update searchlight.rst	PeerHerholz	0
+1716	2018-08-01 10:00:21+00:00	2018-08-03 22:55:33+00:00	closed	Surface colorbars	mjboos	2
+1711	2018-07-31 13:05:52+00:00	2018-08-03 15:37:43+00:00	closed	ENH add dtype option for NiftiMasker	SylvainLan	3
+1690	2018-07-13 12:43:34+00:00	2018-08-03 21:01:22+00:00	closed	_extrapolate_out_mask correction	rmenuet	21
+1685	2018-07-12 11:18:09+00:00	2018-07-13 12:54:55+00:00	closed	Pauli et al. 2017 atlas	Gilles86	1
+1684	2018-07-11 14:18:52+00:00	2018-07-12 09:44:19+00:00	closed	fix typo in image name	salma1601	0
+1682	2018-07-11 09:25:07+00:00	2018-07-31 12:46:52+00:00	closed	ENH: MNI canonical mask in NiftiMasker	SylvainLan	20
+1661	2018-06-19 00:20:56+00:00	2018-06-19 05:11:46+00:00	closed	Update img_plotting.py	pbellec	0
+1646	2018-05-31 10:40:07+00:00	2018-06-12 13:20:34+00:00	closed	[MRG+1] fix typo in nilearn/masking.py and  nilearn/image/resampling.py	zuxfoucault	12
+1643	2018-05-28 08:46:45+00:00	2018-06-12 13:21:18+00:00	closed	[MRG] fixed the test_uncompress function	pierreglaser	15
+1625	2018-03-21 14:27:23+00:00	2018-03-27 20:32:27+00:00	closed	[MRG] fix adding deprecation in warn calls	ja-che	6
+1616	2018-03-07 10:29:09+00:00	2018-03-07 22:16:19+00:00	closed	FIX: changes default colormap of plotting, due to drop of 'spectral' in matplotlib v 2.2	miykael	0
+1614	2018-02-25 18:47:55+00:00	2018-03-09 12:19:51+00:00	closed	[MRG] incorporate the dim argument as input to plot_anat in plot_prob_atlas	YSanchezAraujo	11
+1591	2018-01-10 23:06:12+00:00	2018-01-16 05:50:13+00:00	closed	Fix off by one in reorder_img	cancan101	5
+1584	2017-12-20 11:44:48+00:00	2018-03-09 12:34:56+00:00	closed	[MRG] reorder argument for matrix plotting function	mjboos	79
+1572	2017-11-23 14:46:40+00:00	2017-11-23 22:35:05+00:00	closed	try fix the anaconda web address	salma1601	0
+1554	2017-11-16 20:32:11+00:00	2017-11-18 15:20:14+00:00	closed	 [MRG+2] Resample_img clip fix issue #1528	poquirion	1
+1552	2017-11-16 17:17:35+00:00	2017-11-17 05:18:28+00:00	closed	Harmonize anat_img to bg_img	cbedetti	0
+1542	2017-11-07 15:59:08+00:00	2017-11-14 20:36:17+00:00	closed	[MRG+1] Suppress UserWarning on calls to affine_transform	cancan101	7
+1532	2017-10-24 20:37:44+00:00	2017-11-16 19:30:26+00:00	closed	[MRG+1] Region volume	salma1601	22
+1524	2017-10-12 16:47:29+00:00	2017-10-12 20:35:11+00:00	closed	Update scikit mailing list	clfs	0
+1517	2017-09-28 15:26:25+00:00	2017-09-28 19:28:08+00:00	closed	Typo	TheChymera	0
+1512	2017-09-18 12:35:29+00:00	2017-09-19 13:29:20+00:00	closed	Added option to perform linear resampling	jnecus	1
+1490	2017-08-17 01:17:09+00:00	2017-08-24 15:19:41+00:00	closed	ENH: Add resampling_interpolation kwarg to plot_glass_brain	larsoner	7
+1487	2017-07-26 17:11:16+00:00	2017-08-02 14:22:19+00:00	closed	[MRG] add group information to Searchlight	njchiang	6
+1486	2017-07-26 15:18:21+00:00	2017-07-28 13:07:35+00:00	closed	ENH: Glass backview	kingjr	1
+1484	2017-07-26 08:45:41+00:00	2017-07-27 14:14:14+00:00	closed	[MRG] Broken link to MSDL atlas	megh1241	1
+1481	2017-07-09 12:46:32+00:00	2017-07-09 16:57:09+00:00	closed	typo	TheChymera	0
+1476	2017-06-24 16:30:32+00:00	2017-06-24 22:31:28+00:00	closed	BF: Move code within submodule example under __main__ conditioning and add shebang	yarikoptic	0
+1474	2017-06-24 01:48:33+00:00	2017-06-26 16:50:03+00:00	closed	FIXUP: check invalid input for dim argument (issue #1226)	alpinho	2
+1473	2017-06-22 18:16:19+00:00	2017-06-23 00:49:14+00:00	closed	Created cv object is not used in example plot_haxby_anova_svm.py	sfvnielsen	0
+1462	2017-06-01 20:05:05+00:00	2017-07-18 21:31:21+00:00	closed	MRG axes param to plot_surf	jona-sassenhagen	47
+1457	2017-05-20 11:58:13+00:00	2017-05-21 08:13:16+00:00	closed	changing name, classifier is now estimator	ahoyosid	0
+1456	2017-05-17 19:23:00+00:00	2017-06-15 16:49:51+00:00	closed	setting the default threshold value in the correct position	TheChymera	28
+1434	2017-04-07 13:43:37+00:00	2017-06-15 16:51:01+00:00	closed	[MRG] Fix #1424: control smoothing in region extraction	salma1601	69
+1433	2017-04-06 07:36:26+00:00	2017-04-25 11:53:28+00:00	closed	[MRG+1] Fix typos	SylvainLan	19
+1428	2017-04-05 07:44:21+00:00	2017-05-23 10:06:22+00:00	closed	[MRG] checks that the threshold is not higher than number of maps for canICA 	SylvainLan	48
+1410	2017-03-06 10:32:54+00:00	2017-03-07 08:59:07+00:00	closed	Support for niimg in find_cut_slices	akshayah3	0
+1409	2017-03-04 17:57:28+00:00	2017-06-15 16:55:28+00:00	closed	[MRG] Added largest_connected_component_img	SRSteinkamp	90
+1408	2017-03-04 17:39:27+00:00	2017-07-30 09:51:06+00:00	closed	WIP: Matrix plotting function	mjboos	90
+1400	2017-03-02 17:14:30+00:00	2017-03-03 11:08:40+00:00	closed	BF: closes issue #1399	dohmatob	0
+1395	2017-03-02 14:07:40+00:00	2017-03-04 11:02:36+00:00	closed	Matplotlib 2.0 deprecation	arthurmensch	1
+1393	2017-03-02 10:30:02+00:00	2017-03-03 15:25:55+00:00	closed	Doc: Dictionary learning documentation	arthurmensch	1
+1385	2017-02-22 12:16:48+00:00	2017-02-22 12:25:46+00:00	closed	fix: convert uint data to float in find_cut_slices	alexsavio	0
+1384	2017-02-21 15:56:52+00:00	2017-03-03 18:48:39+00:00	closed	Use SelectPercentile in ANOVA decoding	souravsingh	10
+1376	2017-02-06 23:11:56+00:00	2017-02-07 09:41:04+00:00	closed	[MRG] MAINT: switching from coveralls to codecov	aabadie	0
+1372	2017-01-31 10:59:09+00:00	2017-02-22 16:54:00+00:00	closed	[MRG+2] Fetch cobre	darya-chyzhyk	22
+1369	2017-01-27 15:10:52+00:00	2017-01-27 20:45:27+00:00	closed	[DOC] improving docstring of _check_memory function	ahoyosid	0
+1366	2017-01-25 15:33:11+00:00	2017-01-26 16:40:57+00:00	closed	Check memory	ahoyosid	1
+1353	2016-12-24 05:59:19+00:00	2016-12-29 14:59:48+00:00	closed	Add MANIFEST.in	jakirkham	5
+1351	2016-12-21 16:57:01+00:00	2017-03-02 14:40:28+00:00	closed	[MRG+1-1] Check masker utils	ahoyosid	70
+1344	2016-12-11 02:11:01+00:00	2016-12-11 09:40:25+00:00	closed	correct a bug in nilearn.image.clean_img	htylab	0
+1342	2016-12-09 17:34:23+00:00	2017-02-23 14:35:25+00:00	closed	Solving check cv	ahoyosid	75
+1338	2016-12-07 11:24:32+00:00	2016-12-08 21:50:27+00:00	closed	Fixing the transparent colormaps	xgrg	1
+1336	2016-12-06 17:08:05+00:00	2019-05-14 11:59:54+00:00	closed	ReNA: fast agglomerative clustering	ahoyosid	90
+1335	2016-12-06 14:46:18+00:00	2017-01-22 10:23:33+00:00	closed	[MRG+1] Add fetcher for Allen 2011 RSN fMRI atlas	alexsavio	46
+1330	2016-11-19 22:26:39+00:00	2016-12-04 17:04:14+00:00	closed	Remove error grep on Sphinx build	Titan-C	14
+1322	2016-11-01 20:59:21+00:00	2016-11-02 08:38:20+00:00	closed	[MRG] Fixes #1313	Joaoloula	0
+1316	2016-10-25 13:15:54+00:00	2016-10-31 16:04:15+00:00	closed	[MRG] Fixes #1313 and #1314	Joaoloula	6
+1309	2016-10-12 19:45:08+00:00	2017-01-19 10:48:59+00:00	closed	make concat_niimgs preserve header info	dillonplunkett	90
+1304	2016-10-04 09:25:37+00:00	2017-01-19 10:44:19+00:00	closed	Line correction; if vmax was None, no point on assigning	erramuzpe	90
+1301	2016-10-02 10:28:12+00:00	2017-01-19 10:23:12+00:00	closed	Removing accentuated characters	jehane	90
+1293	2016-09-27 10:59:47+00:00	2016-09-27 14:18:54+00:00	closed	fix #1263 bg_img in doc	salma1601	0
+1291	2016-09-26 15:10:13+00:00	2016-10-26 12:22:51+00:00	closed	Fixed deprecation warning with sklearn 0.18	arthurmensch	29
+1284	2016-09-20 08:27:12+00:00	2016-10-31 16:04:18+00:00	closed	[WIP] Adding Jaccard index for computing atlas similarity	Joaoloula	41
+1283	2016-09-19 13:33:37+00:00	2016-09-19 13:59:35+00:00	closed	Fixed typo 'groupe'	AkiNikolaidis	0
+1277	2016-09-15 17:37:56+00:00	2016-10-04 10:35:02+00:00	closed	make connectivity normalization functions public	salma1601	18
+1273	2016-09-12 19:44:26+00:00	2016-09-12 21:21:46+00:00	closed	radius and allow_overlap mandatory in _iter_signals	salma1601	0
+1272	2016-09-12 08:47:28+00:00	2016-09-12 12:09:51+00:00	closed	DOC: fix warning when creating an already existing nilearn_cache	aabadie	0
+1266	2016-09-07 14:15:50+00:00	2016-09-07 15:46:00+00:00	closed	DOC: fix cache symlinks warnings when generating doc.	aabadie	0
+1265	2016-09-07 09:57:50+00:00	2016-09-30 09:02:01+00:00	closed	[MAINT] Update to Sphinx-Gallery 0.1.4	Titan-C	22
+1243	2016-08-14 16:34:55+00:00	2016-08-14 16:42:10+00:00	closed	use seed-to-voxel terminology	salma1601	0
+1236	2016-08-11 09:08:27+00:00	2017-05-03 12:57:09+00:00	closed	[MRG+1] Vectorize connectivity	salma1601	90
+1225	2016-08-08 15:24:51+00:00	2016-08-08 21:07:30+00:00	closed	remove power example	salma1601	0
+1224	2016-08-08 14:04:43+00:00	2016-08-14 15:08:21+00:00	closed	Add dosenbach ordering	salma1601	6
+1222	2016-08-07 21:12:50+00:00	2016-08-08 06:39:05+00:00	closed	[MRG+1] replace corrcoef by ConnectivityMeasure in hint	salma1601	0
+1219	2016-08-07 14:52:46+00:00	2016-08-08 06:39:33+00:00	closed	[MRG+1] use ConnectivityMeasure instead of manual fitting of LedoitWolf	salma1601	0
+1217	2016-08-07 14:20:24+00:00	2016-08-07 18:36:30+00:00	closed	use ConnectivityMeasure instead of np.corrcoef in examples	salma1601	0
+1216	2016-08-06 20:24:49+00:00	2016-08-09 07:19:43+00:00	closed	Issue with searchlight with no process mask?	dillonplunkett	2
+1210	2016-08-06 12:44:57+00:00	2016-08-08 06:42:13+00:00	closed	improve preprocs and remove sites restriction to show tangent measure benefit	salma1601	1
+1198	2016-08-04 00:06:14+00:00	2016-08-15 20:24:21+00:00	closed	[WIP] Update to Sphinx-Gallery 0.1.3	Titan-C	11
+1184	2016-07-21 21:53:49+00:00	2016-07-21 23:53:11+00:00	closed	[MRG] fixes links on space net tutorial	Joaoloula	0
+1183	2016-07-21 20:59:46+00:00	2016-07-22 09:23:56+00:00	closed	FIX: correct left and right hemisphere mix-up in glass brain visualization	miykael	0
+1179	2016-07-10 17:55:27+00:00	2016-07-21 08:40:18+00:00	closed	add_edges correct docstring parameters	salma1601	10
+1164	2016-07-05 08:22:53+00:00	2016-07-05 13:43:07+00:00	closed	[MRG+1] raise explicit TR error	salma1601	0
+1162	2016-07-04 15:43:33+00:00	2016-07-07 12:23:22+00:00	closed	Fixes issue #1161	dohmatob	2
+1158	2016-07-02 10:31:45+00:00	2016-07-03 21:24:49+00:00	closed	[MRG] Fixes #1127, deprecates fetch_haxby_simple, adds test_fail_fetch_haxby	Joaoloula	1
+1148	2016-06-23 13:04:06+00:00	2016-07-21 10:49:46+00:00	closed	[MRG] Scikit-learn backports: Checking length of inputs	ahoyosid	27
+1144	2016-06-22 10:07:50+00:00	2016-06-23 12:56:04+00:00	closed	displays.add_overlay: Add check if ims is empty	alexsavio	1
+1143	2016-06-21 16:57:22+00:00	2016-07-05 08:22:35+00:00	closed	fixed doc in all maskers, changed False possibility for None. Moreove…	MartinPerez	13
+1095	2016-05-02 21:18:22+00:00	2016-05-11 12:50:21+00:00	closed	FIX: plot_brain_schematics bug with black background	robbisg	8
+1090	2016-04-21 17:44:34+00:00	2016-04-22 06:08:21+00:00	closed	DOC: Fix broken links in the documentation	iglpdc	0
+1084	2016-04-15 10:37:23+00:00	2019-02-20 17:32:24+00:00	closed	FIX: save and display z instead of r values	fliem	90
+1083	2016-04-14 12:35:20+00:00	2016-04-15 06:35:19+00:00	closed	[MRG+1] use imgmath extension when using sphinx >= 1.4	aabadie	0
+1082	2016-04-13 17:01:28+00:00	2018-10-14 13:09:42+00:00	closed	[MRG] website navigation improvements	aabadie	90
+1080	2016-04-12 16:21:55+00:00	2016-04-13 07:05:47+00:00	closed	remove `data` from CanICA init docstring	alexsavio	0
+1076	2016-04-12 11:18:39+00:00	2016-05-23 08:32:00+00:00	closed	[MRG] improve DimensionError exception message	aabadie	40
+1067	2016-03-29 15:56:46+00:00	2016-05-23 08:33:16+00:00	closed	Fixing some minor issues in DictLearning class	dohmatob	54
+1061	2016-03-18 19:24:53+00:00	2016-03-24 10:32:22+00:00	closed	Fixing #1057	Naereen	5
+1059	2016-03-17 21:26:32+00:00	2016-03-21 08:28:05+00:00	closed	[MRG +1] Fixing small typos on data_preparation.rst	Naereen	3
+1058	2016-03-17 20:56:12+00:00	2016-03-21 08:24:25+00:00	closed	Fixing small typos on functional_connectomes.rst	Naereen	3
+1054	2016-03-10 12:23:32+00:00	2016-03-17 15:42:04+00:00	closed	[MRG+1] Use expandpath when memory attribute is a basestring in CacheMixin	aabadie	7
+1049	2016-03-06 14:05:51+00:00	2016-03-07 08:48:47+00:00	closed	fix: warn 3D normalization only if normalize==True	fliem	0
+1045	2016-03-03 13:54:42+00:00	2016-03-10 08:31:47+00:00	closed	[MRG] Circle ci py3	aabadie	6
+1043	2016-03-02 17:01:41+00:00	2016-03-02 21:28:47+00:00	closed	Fixing some py3 issues in Space-Net	dohmatob	0
+1042	2016-03-02 15:31:27+00:00	2016-03-03 09:06:45+00:00	closed	[MRG+1] fixing plot_mixed_gambles_space_net.py decoding example	aabadie	0
+1037	2016-03-01 13:43:09+00:00	2016-03-02 09:59:22+00:00	closed	[MRG+1] Circle ci anaconda	aabadie	0
+1034	2016-02-29 16:08:21+00:00	2016-06-07 15:05:47+00:00	closed	Glass brain hemispheres	MartinPerez	90
+1033	2016-02-29 14:09:01+00:00	2016-03-02 09:23:15+00:00	closed	[MRG] Resample to img example	aabadie	1
+1031	2016-02-27 16:10:06+00:00	2016-02-29 21:52:08+00:00	closed	#1029 Ignore unit tests in circleCI	quantshah	2
+1028	2016-02-27 12:14:58+00:00	2016-03-03 10:49:07+00:00	closed	Encoding example	mjboos	4
+1027	2016-02-26 17:15:19+00:00	2016-02-27 09:14:02+00:00	closed	[MRG+1] Adding a resample_to_img function	aabadie	0
+1026	2016-02-26 16:26:43+00:00	2016-06-07 15:27:00+00:00	closed	[MRG] Plot prob atlas colorbar	arthurmensch	90
+1007	2016-02-24 13:34:14+00:00	2016-02-24 21:45:07+00:00	closed	[MRG] Added examples to docstring of image.index_img	mjboos	0
+991	2016-02-17 09:56:03+00:00	2016-02-17 14:38:07+00:00	closed	[MRG+1] Make memory profiling tests more robust	aabadie	0
+987	2016-02-11 08:51:30+00:00	2016-02-11 10:15:20+00:00	closed	[MRG] FIX wrong link in exception	aabadie	0
+982	2016-02-05 16:57:18+00:00	2016-02-12 21:31:33+00:00	closed	[MRG] math operator in string	aabadie	7
+980	2016-02-05 10:26:40+00:00	2016-02-05 10:37:31+00:00	closed	[MRG] DOC fix README.rst contributing section	aabadie	0
+978	2016-02-04 12:26:25+00:00	2016-02-05 10:03:56+00:00	closed	[MRG] DOC Adding contributing page in doc	aabadie	0
+976	2016-02-02 10:54:58+00:00	2016-02-03 17:21:01+00:00	closed	MRG: limit download status output displayed on circle ci	aabadie	1
+968	2016-01-29 17:57:59+00:00	2016-02-03 16:16:21+00:00	closed	Bug: connectivity measures with LedoitWolf and wrong dimension	salma1601	4
+964	2016-01-26 14:46:52+00:00	2016-01-26 15:10:35+00:00	closed	[MRG+1] REWRITE: dataset.func[0] ==> func_filenames[0]	dohmatob	0
+961	2016-01-24 23:41:58+00:00	2016-02-02 15:34:53+00:00	closed	[MRG+1] Update to sphinx-gallery v0.1.1	Titan-C	8
+959	2016-01-21 15:33:25+00:00	2016-02-04 14:54:12+00:00	closed	[MRG] Memory check based on memory profiler	aabadie	13
+950	2016-01-16 21:29:54+00:00	2016-02-17 23:01:48+00:00	closed	Dosenbach 2010 ROIs as in paper	salma1601	32
+944	2016-01-13 13:50:25+00:00	2016-01-13 23:03:14+00:00	closed	[MRG+1] BF: Check that mask is fitted before accessing fitted data.	bcipolli	0
+937	2016-01-10 12:31:04+00:00	2016-01-13 12:33:32+00:00	closed	[0.2.2 milestone] find_coords: allow 4D input	banilo	3
+928	2016-01-06 15:51:55+00:00	2016-01-07 12:04:14+00:00	closed	DOC: fixing overlapping text and wrong example	aabadie	0
+905	2015-12-13 20:38:26+00:00	2015-12-18 10:06:17+00:00	closed	FIX: doc link to examples	arthurmensch	4
+890	2015-12-03 17:22:24+00:00	2015-12-03 17:27:12+00:00	closed	Set SpaceNet examples cache to 'nilearn_cache'	mrahim	0
+887	2015-12-03 12:33:49+00:00	2015-12-03 15:19:23+00:00	closed	DOC: Fix broken URLs	mrahim	0
+882	2015-12-02 17:56:24+00:00	2015-12-10 13:24:46+00:00	closed	[MRG+1] Fix: add globbing to _iter_check_niimg	aabadie	7
+879	2015-12-02 15:42:42+00:00	2015-12-02 16:10:21+00:00	closed	DOC: fix pipeline demo	mrahim	0
+878	2015-12-02 15:39:16+00:00	2015-12-02 16:27:08+00:00	closed	BF: Better error msg for empty mask	dohmatob	0
+877	2015-12-02 15:25:36+00:00	2015-12-02 19:14:16+00:00	closed	[BF] copy_img / get_data / new_image_like side effects on nifti images (e.g troublesome when caching)	ainafp	0
+876	2015-12-02 14:50:20+00:00	2015-12-02 15:51:11+00:00	closed	DOC centering file name matchings sidebar for small width	aabadie	0
+875	2015-12-02 14:35:46+00:00	2015-12-03 17:10:18+00:00	closed	[MRG+1] BF: IndexError in fast_abs_percentile	dohmatob	1
+871	2015-12-02 12:47:27+00:00	2015-12-03 12:50:08+00:00	closed	[MRG] MAINT circle ci is now more strict with documentation generation	aabadie	1
+867	2015-12-02 12:09:48+00:00	2015-12-02 14:40:24+00:00	closed	FIX expand user path in glob	aabadie	0
+865	2015-12-02 09:43:51+00:00	2015-12-02 17:09:26+00:00	closed	DOC: adding a section on NiftiSpheresMasker	mrahim	0
+856	2015-11-22 19:44:15+00:00	2015-12-01 17:33:27+00:00	closed	[BF] find_cuts crashes ungracefully if mask is empty	dohmatob	8
+853	2015-11-22 15:16:00+00:00	2015-12-02 13:02:23+00:00	closed	[MRG+1] [BF] Fixes SpaceNet crashes when n_alphas=1 specified	dohmatob	9
+851	2015-11-22 14:30:39+00:00	2015-11-23 13:00:40+00:00	closed	[BF] Fixes issue #849	dohmatob	0
+844	2015-11-16 10:20:59+00:00	2015-11-19 09:06:47+00:00	closed	[MRG] Install matplotlib with conda	aabadie	2
+842	2015-11-11 15:42:46+00:00	2015-11-11 20:29:17+00:00	closed	[MRG] Remaining occurences of APPVEYOR_TEST environment variable	aabadie	0
+839	2015-11-10 16:36:48+00:00	2015-11-10 22:20:17+00:00	closed	Add overwrite option to _fetch_files	bcipolli	0
+838	2015-11-10 15:20:28+00:00	2015-11-24 11:40:55+00:00	closed	Fetching output is not as flexible as needed for NeuroVault 	bcipolli	13
+837	2015-11-10 12:13:25+00:00	2015-11-10 13:29:24+00:00	closed	Update _fetch_file* docstring.	bcipolli	0
+834	2015-11-07 10:34:36+00:00	2015-11-16 09:48:57+00:00	closed	Spacenet classifier accuracy score	mrahim	8
+831	2015-11-06 21:15:01+00:00	2015-11-08 08:40:49+00:00	closed	DOC: A few fixes in examples.	arokem	1
+829	2015-11-06 10:34:36+00:00	2015-11-06 16:02:12+00:00	closed	HOTFIX: multi pca reproducibility	arthurmensch	0
+828	2015-11-06 10:28:10+00:00	2015-11-12 14:50:57+00:00	closed	[FIX] fixing precision issue in test	aabadie	6
+823	2015-11-05 13:13:58+00:00	2015-11-05 15:37:41+00:00	closed	BF: handle empty mask in _crop_mask function	dohmatob	0
+821	2015-11-05 12:13:31+00:00	2015-11-05 15:24:57+00:00	closed	[MRG+1] Fix file access issues	aabadie	0
+820	2015-11-03 16:50:49+00:00	2015-11-03 17:26:57+00:00	closed	[MRG] fixing write permission error on windows	aabadie	0
+819	2015-11-03 10:58:28+00:00	2015-11-03 17:33:22+00:00	closed	[MRG] fixing overflow error on Windows (and potentially on i686)	aabadie	0
+818	2015-11-03 10:26:45+00:00	2015-11-03 13:34:55+00:00	closed	[WIP] BF: Fix issue #817	dohmatob	0
+814	2015-11-02 16:35:32+00:00	2015-11-04 08:04:37+00:00	closed	[MRG] Fixing path and environment variables issues + tests on windows	aabadie	1
+808	2015-10-30 16:40:37+00:00	2015-11-04 13:44:07+00:00	closed	[MRG] Setting up appveyor ci	aabadie	4
+805	2015-10-23 12:08:43+00:00	2015-10-28 14:10:37+00:00	closed	[MRG] DOC : removing duplicated documentation files for datasets	aabadie	5
+799	2015-10-20 11:18:17+00:00	2015-10-20 11:24:17+00:00	closed	AAL atlas URL	mrahim	0
+798	2015-10-19 12:48:17+00:00	2015-10-23 12:05:21+00:00	closed	[MRG] use glob with check_niimg	aabadie	3
+795	2015-10-14 16:29:32+00:00	2015-10-15 15:01:33+00:00	closed	[MRG] Use capital letters + other small changes related to PEP8	aabadie	0
+790	2015-10-12 15:47:39+00:00	2015-10-13 09:27:56+00:00	closed	[MRG] Improving nilearn package docstring	aabadie	0
+787	2015-10-05 14:58:14+00:00	2015-10-05 14:59:19+00:00	closed	Typo	DimitriPapadopoulos	0
+759	2015-08-08 17:16:56+00:00	2015-08-17 08:48:40+00:00	closed	doc change proposal for _fetch_files function in utils.py	MartinPerez	8
+758	2015-08-08 17:02:59+00:00	2015-08-21 11:58:45+00:00	closed	added aal atlas download and updated reference.rst	MartinPerez	12
+739	2015-07-29 11:51:21+00:00	2015-07-31 10:35:25+00:00	closed	DOC+ENH: fixing minor docstring issues	dohmatob	1
+734	2015-07-29 07:29:28+00:00	2015-07-29 08:29:21+00:00	closed	[MRG+1] Fixing some minor SpaceNet issues (post-merge era)	dohmatob	0
+722	2015-07-25 20:44:44+00:00	2015-07-26 19:36:04+00:00	closed	[MRG] small tweak to the phrasing and links of Neurodebian install doc	MartinPerez	0
+710	2015-07-18 13:34:16+00:00	2015-07-19 18:09:09+00:00	closed	PEP8 fixes in datasets/*	banilo	1
+709	2015-07-17 18:25:23+00:00	2015-07-17 18:27:10+00:00	closed	fixed pipe error propagation in circleCI	chrisgorgo	0
+707	2015-07-17 16:53:56+00:00	2015-07-17 18:06:08+00:00	closed	[MRG+1] Improving docstring for symmetric_cbar argument and adding tests for _get_plot_stat_map_params	juhuntenburg	0
+704	2015-07-17 13:39:49+00:00	2015-07-17 14:50:40+00:00	closed	[MRG] Plot prob atlas 691	MartinPerez	0
+702	2015-07-17 13:35:54+00:00	2015-08-20 11:40:45+00:00	closed	[MRG] Added check_embedded_nifti_masker	arthurmensch	33
+697	2015-07-16 17:32:03+00:00	2015-07-17 15:26:46+00:00	closed	Migrate dataset code - episode II	banilo	0
+694	2015-07-16 16:07:07+00:00	2015-07-16 17:22:42+00:00	closed	Fix dependencies on CircleCI	chrisgorgo	0
+693	2015-07-16 15:36:20+00:00	2015-12-08 14:44:07+00:00	closed	[MRG] Dictionary learning + nilearn.decomposition refactoring	arthurmensch	90
+692	2015-07-16 15:27:49+00:00	2015-07-16 15:52:33+00:00	closed	[MRG] Broken links correct branch. 	MartinPerez	0
+687	2015-07-16 12:44:46+00:00	2015-07-17 12:24:55+00:00	closed	[MRG+1] New installation documentation component proposal	MartinPerez	0
+679	2015-07-15 16:50:29+00:00	2015-07-16 14:12:06+00:00	closed	Added CircleCI support	chrisgorgo	0
+677	2015-07-15 15:39:11+00:00	2015-11-22 09:53:14+00:00	closed	Tangent classif	salma1601	90
+663	2015-07-14 13:01:50+00:00	2015-07-14 13:03:28+00:00	closed	"BF: ""<i8"" ==> ""int"" in test_fetch_adhd (fixes issue #658"	dohmatob	0
+662	2015-07-14 12:02:33+00:00	2015-07-15 11:19:12+00:00	closed	[MRG] Mention Debian package as installation option (fixes gh-660)	mih	0
+661	2015-07-14 10:46:36+00:00	2015-07-14 12:00:32+00:00	closed	issue 656	MartinPerez	0
+657	2015-07-14 07:56:20+00:00	2015-07-28 22:28:37+00:00	closed	SpaceNet (this PR succeeds PR #219)	dohmatob	14
+653	2015-07-13 17:28:42+00:00	2015-07-13 17:48:22+00:00	closed	Generalize example README to cover package-based installations	mih	0
+648	2015-07-13 14:21:44+00:00	2015-07-13 14:36:18+00:00	closed	Cleanup sphinxext licence summary	mih	0
+644	2015-07-13 10:11:38+00:00	2015-07-15 13:02:57+00:00	closed	[MRG+1] Plot glass brain negative values	chrisgorgo	2
+642	2015-07-13 09:42:31+00:00	2015-07-13 10:09:25+00:00	closed	Fix path specification in LICENSE	mih	0
+632	2015-07-04 11:44:03+00:00	2015-07-04 12:59:22+00:00	closed	typo in different estimator example	banilo	0
+623	2015-06-30 16:59:05+00:00	2015-07-13 12:42:00+00:00	closed	Fixed bug in intersect_mask	arthurmensch	12
+619	2015-06-27 03:30:46+00:00	2015-07-16 13:06:08+00:00	closed	doccheck 3: manipulation	banilo	19
+615	2015-06-22 17:42:31+00:00	2015-07-16 10:11:22+00:00	closed	[MRG] doccheck 2: preparation	banilo	23
+612	2015-06-16 11:03:52+00:00	2015-06-16 11:46:01+00:00	closed	NiftiSpheresMasker Docstring	mrahim	0
+593	2015-05-20 18:02:47+00:00	2015-07-16 06:18:47+00:00	closed	[MRG] port new_img_like to nilearn/image	banilo	56
+592	2015-05-20 11:50:09+00:00	2015-11-28 10:33:15+00:00	closed	[MRG+1] Backreferences template from sphinx-gallery	Titan-C	90
+587	2015-05-14 17:31:55+00:00	2015-06-12 08:52:46+00:00	closed	Checked the docs: introduction	banilo	28
+578	2015-05-09 20:02:54+00:00	2015-05-11 09:24:43+00:00	closed	[MRG] FIX : plot_stat_map with MGZ anat	agramfort	1
+576	2015-05-08 14:42:23+00:00	2015-05-11 07:51:49+00:00	closed	[MRG+1] Fix issue575	dohmatob	2
+571	2015-05-04 14:30:09+00:00	2015-05-11 07:56:18+00:00	closed	[MRG+1] BF: issue #570 (including tests)	dohmatob	6
+568	2015-05-02 08:51:44+00:00	2015-05-07 07:20:56+00:00	closed	Lose the _safe_filter_and_mask helper function	banilo	4
+559	2015-04-24 11:39:08+00:00	2015-04-24 11:50:28+00:00	closed	Update to sphinxgallery 0.0.9 dev-release to fix bug on no plot flag	Titan-C	0
+556	2015-04-22 13:14:33+00:00	2015-04-30 11:51:17+00:00	closed	[MRG+1] Added the possibility to use a Normalize class to modulate edge coloring 	demianw	7
+538	2015-04-12 16:37:08+00:00	2015-04-12 16:40:02+00:00	closed	typo	banilo	0
+534	2015-04-08 14:22:21+00:00	2015-04-20 12:33:12+00:00	closed	add description of datasets in doc	banilo	11
+533	2015-04-07 14:31:04+00:00	2015-04-07 14:32:59+00:00	closed	fix miy fetch rest fname	banilo	0
+532	2015-04-07 14:24:34+00:00	2015-04-07 14:32:38+00:00	closed	fix typo	banilo	0
+531	2015-04-04 18:31:31+00:00	2015-04-24 08:38:38+00:00	closed	Add explicit explications/prints for bunches in the nilearn examples	banilo	19
+520	2015-03-23 15:22:20+00:00	2015-03-27 15:10:08+00:00	closed	Vmaxnan	banilo	3
+511	2015-03-20 08:25:59+00:00	2015-03-23 14:10:50+00:00	closed	regression test for colorbar	banilo	3
+500	2015-03-17 15:09:11+00:00	2015-03-19 08:23:34+00:00	closed	Data descr3	banilo	1
+498	2015-03-14 18:15:26+00:00	2015-03-17 12:39:38+00:00	closed	check_fitted() for 2 maskers	banilo	2
+493	2015-03-11 15:17:18+00:00	2015-03-17 14:25:34+00:00	closed	dataset descriptions2	banilo	5
+491	2015-03-10 13:01:06+00:00	2015-03-17 10:26:47+00:00	closed	connectome-plot-bugfix	banilo	6
+488	2015-03-05 15:39:47+00:00	2015-03-09 13:35:07+00:00	closed	Provide dataset descriptions	banilo	3
+476	2015-03-02 04:01:52+00:00	2015-03-06 08:30:03+00:00	closed	Python 3.x support in nilearn	bcipolli	4
+474	2015-03-01 15:38:45+00:00	2015-03-03 08:24:01+00:00	closed	Improve Nifti masker code coverage	bcipolli	1
+473	2015-03-01 13:33:42+00:00	2015-03-13 21:53:10+00:00	closed	bugfix in findcuts()	banilo	12
+470	2015-02-28 22:59:52+00:00	2015-03-09 13:42:40+00:00	closed	CanICA / MultiPCA: Fix interface / avoid warning for fitting with and without images	bcipolli	8
+464	2015-02-25 17:08:31+00:00	2015-03-17 10:29:58+00:00	closed	Generalize colorbar axis computations for different input axis sizes	bcipolli	19
+459	2015-02-24 09:53:39+00:00	2015-02-27 00:19:29+00:00	closed	Avoid exploding memory on transpose error	bcipolli	2
+456	2015-02-23 10:30:30+00:00	2015-02-27 00:17:04+00:00	closed	img_plotting: simplify NaN check	banilo	3
+454	2015-02-22 20:38:14+00:00	2015-02-27 13:18:20+00:00	closed	glass_brain: fix colorbar	banilo	4
+452	2015-02-21 09:47:53+00:00	2015-02-22 14:35:24+00:00	closed	Return cut coords as a list of floats	bcipolli	1
+451	2015-02-20 22:59:27+00:00	2015-02-23 07:06:44+00:00	closed	Bugfix: Add axes on figure of received axes, not on current figure.	bcipolli	2
+448	2015-02-19 22:10:00+00:00	2015-02-23 08:08:05+00:00	closed	Enhancements to plot_adhd_covariance.py	bcipolli	3
+447	2015-02-19 21:03:59+00:00	2015-02-19 21:48:34+00:00	closed	Update error message info and formatting.	bcipolli	0
+445	2015-02-19 16:57:10+00:00	2015-02-19 18:16:38+00:00	closed	Pass verbose parameter to nifti masker.	bcipolli	0
+437	2015-02-17 14:33:14+00:00	2015-02-18 08:40:45+00:00	closed	_compose_err_msg() moved to _utils	banilo	0
+429	2015-02-14 16:55:08+00:00	2015-02-14 18:52:12+00:00	closed	improve masker docstrings	banilo	0
+426	2015-02-13 13:04:48+00:00	2015-02-16 13:07:47+00:00	closed	refactor nifti masker family	banilo	3
+422	2015-02-11 15:35:27+00:00	2015-02-12 10:05:52+00:00	closed	Gently demystify the sociology of nifti maskers	banilo	0
+417	2015-02-08 11:28:18+00:00	2015-02-09 14:08:49+00:00	closed	PEP8 fix in test_niimg_conversion	banilo	1
+414	2015-02-06 12:09:21+00:00	2015-02-06 13:54:55+00:00	closed	TST smoke tests for bugfixes for issues 409 and 410	eickenberg	0
+412	2015-02-05 21:55:33+00:00	2015-02-05 22:25:13+00:00	closed	FIX exception raised when no cbar, but cbar bounds specified	eickenberg	0
+407	2015-02-05 17:10:22+00:00	2015-02-05 17:12:15+00:00	closed	(very) small docstring fix	mrahim	0
+406	2015-02-05 16:40:46+00:00	2015-02-05 20:15:30+00:00	closed	Cosmetics in code and documentation	salma1601	0
+405	2015-02-05 16:00:34+00:00	2015-02-06 09:19:27+00:00	closed	[MRG] adding resampling parameter when plotting	mrahim	0
+403	2015-02-05 15:32:30+00:00	2015-02-05 17:29:38+00:00	closed	test for fetch_harvard_oxford()	banilo	0
+399	2015-02-05 14:13:09+00:00	2015-04-14 07:50:31+00:00	closed	Sphinx-gallery into nilearn 	Titan-C	67
+395	2015-02-05 12:54:55+00:00	2015-02-05 13:27:16+00:00	closed	Fetcher for Harvard-Oxford atlas	banilo	0
+394	2015-02-05 11:06:13+00:00	2015-02-05 13:00:16+00:00	closed	Small documentation fixes	kshmelkov	0
+391	2015-02-05 08:45:34+00:00	2015-02-05 12:34:53+00:00	closed	[MRG] Adding colorbar argument to plot_img (fix #389)	mrahim	0
+388	2015-02-04 12:35:27+00:00	2015-02-05 15:50:13+00:00	closed	Docstring fixes related to Niimg-like objects	banilo	1
+377	2015-01-31 14:05:16+00:00	2015-02-02 12:56:22+00:00	closed	switch examples to index/iter_img	banilo	1
+369	2015-01-25 20:40:25+00:00	2015-02-01 15:37:40+00:00	closed	Verbosity=0 should mean silent	bcipolli	6
+364	2015-01-22 14:44:45+00:00	2015-01-22 15:09:09+00:00	closed	fix in docstrings of plotting functions	banilo	0
+359	2015-01-20 15:35:50+00:00	2015-01-21 21:26:56+00:00	closed	Enable Python 2.6 support	bcipolli	1
+354	2015-01-17 23:18:12+00:00	2015-01-18 08:50:31+00:00	closed	MultiPCA: typo+language	banilo	0
+351	2015-01-15 18:13:46+00:00	2015-01-18 13:50:27+00:00	closed	Tweak download rate reporting to account for resuming.	bcipolli	2
+348	2015-01-11 10:04:15+00:00	2015-01-12 09:58:49+00:00	closed	Adding info to fetch_haxby dataset fetcher	eickenberg	0
+345	2015-01-09 07:05:46+00:00	2015-01-16 14:03:37+00:00	closed	Add dependency checks to setup.py	bcipolli	7
+344	2015-01-09 06:54:40+00:00	2015-01-09 12:59:36+00:00	closed	Ignore all current example file-based outputs.	bcipolli	0
+321	2014-12-16 13:56:42+00:00	2014-12-17 10:14:43+00:00	closed	remove obsolete comments	banilo	0
+307	2014-12-06 18:41:02+00:00	2015-01-09 15:05:04+00:00	closed	Added missing 3d-image enforcements	banilo	33
+306	2014-12-06 16:54:07+00:00	2014-12-11 10:18:14+00:00	closed	NiftMaps/LabelsMasker: deact. detrend/standardize	banilo	4
+296	2014-11-25 21:41:17+00:00	2014-12-15 15:26:29+00:00	closed	added thresholded colorbar	banilo	19
+294	2014-11-24 16:39:55+00:00	2014-12-04 13:19:46+00:00	closed	[ENH] globally unifying _img/_niimg naming in API+variables	banilo	9
+293	2014-11-24 10:25:46+00:00	2015-02-05 16:55:50+00:00	closed	[ENH + MRG] added symmetric_range kw to plot_stat_map	eickenberg	73
+291	2014-11-22 17:51:32+00:00	2015-02-12 10:07:09+00:00	closed	[ENH] NiftiMasker: added time mask	banilo	81
+290	2014-11-21 16:36:33+00:00	2014-11-24 07:44:56+00:00	closed	Adding missing 'threshold' docstrings in plotting functions	banilo	2
+289	2014-11-21 16:18:24+00:00	2014-11-24 10:55:24+00:00	closed	PEP8 fixes in plot_affine_transformation.py	banilo	2
+277	2014-11-11 14:33:26+00:00	2015-01-14 09:32:34+00:00	closed	added concat_img() in nilearn.image	banilo	63
+276	2014-11-09 15:51:52+00:00	2014-11-21 14:00:09+00:00	closed	Parallel() for CanICA class	banilo	11
+267	2014-10-25 06:57:03+00:00	2014-10-29 15:35:23+00:00	closed	[ENH] Fit-Check added to NiftiLabelsMasker	banilo	4
+262	2014-10-14 09:25:29+00:00	2014-10-31 12:50:38+00:00	closed	Dataset download fails in a fresh install	Titan-C	17
+259	2014-10-11 17:19:02+00:00	2014-11-04 08:49:47+00:00	closed	updated ROI extraction	banilo	23
+256	2014-10-06 13:25:31+00:00	2014-10-06 13:27:07+00:00	closed	ENH: nibabel 1.2.2 -> 1.1.0 (in Readme.rst)	dohmatob	0
+255	2014-10-06 12:25:56+00:00	2014-10-06 13:11:54+00:00	closed	Say nibabel in readme (closes issue #253)	dohmatob	0
+254	2014-10-06 10:16:56+00:00	2014-10-06 13:35:20+00:00	closed	DOC: searchlight docstring for neighbor matrix A, sample should be called feature	mekman	0
+248	2014-10-01 10:58:38+00:00	2014-10-06 15:34:30+00:00	closed	[WIP] New feature: python-version of fslswapdim	banilo	5
+218	2014-06-20 09:59:33+00:00	2014-06-23 09:01:50+00:00	closed	BF: return signed scores when two-sided testing.	VirgileFritsch	2
+216	2014-06-18 17:52:44+00:00	2014-06-18 17:53:13+00:00	closed	fixing	schwarty	0
+214	2014-06-18 13:33:10+00:00	2014-06-18 15:17:58+00:00	closed	generate_fake_fmri	schwarty	0
+200	2014-06-09 15:27:21+00:00	2014-06-09 16:20:10+00:00	closed	Fix imports to local paths	alexsavio	0
+192	2014-04-29 09:32:50+00:00	2014-06-17 15:23:10+00:00	closed	[ENH] Localizer and covariates	VirgileFritsch	49
+191	2014-04-28 15:21:19+00:00	2014-04-28 16:18:41+00:00	closed	Localizer: multiple contrasts fetching. Fix issue #190.	VirgileFritsch	0
+189	2014-04-28 12:57:25+00:00	2014-05-21 13:40:20+00:00	closed	[ENH] Permuted OLS: Correct the permutation scheme in haxby example.	VirgileFritsch	23
+186	2014-04-11 16:00:27+00:00	2014-04-26 12:55:46+00:00	closed	VBM on Oasis cross-sectional dataset (> 400 subjects)	VirgileFritsch	14
+178	2014-03-28 12:39:48+00:00	2014-03-28 12:47:36+00:00	closed	BF: correct sign swap in permuted_ols	VirgileFritsch	0
+177	2014-03-27 16:51:45+00:00	2014-04-18 14:11:24+00:00	closed	NF: Downloader for the Localizer dataset.	VirgileFritsch	21
+173	2014-03-19 15:53:15+00:00	2014-04-28 12:17:36+00:00	closed	NF: One/two-sided tests in permuted OLS (replace F-test with t-test)	VirgileFritsch	39
+168	2014-02-25 08:25:10+00:00	2014-03-19 10:35:52+00:00	closed	Added relative tolerance to cropping	eickenberg	22
+167	2014-02-21 17:04:41+00:00	2014-03-13 10:30:42+00:00	closed	NF: Add Massively Univariate Linear Model with permuted OLS (v2).	VirgileFritsch	19
+163	2014-02-10 20:39:23+00:00	2014-02-14 09:26:09+00:00	closed	BF: closes issue #162	dohmatob	3
+158	2014-01-30 16:48:16+00:00	2014-01-31 12:31:32+00:00	closed	high variance confounds (clean history)	rphlypo	0
+155	2014-01-29 17:21:12+00:00	2014-01-30 15:59:17+00:00	closed	Min mem tweaks	rphlypo	0
+148	2013-12-12 11:31:30+00:00	2013-12-18 16:08:34+00:00	closed	Haxby example, this time with l1-logistic	fabianp	6
+145	2013-12-05 12:43:51+00:00	2014-01-31 09:58:13+00:00	closed	added a closing operation to the masker to avoid 'gaps' in the mask	rphlypo	56
+142	2013-11-29 00:58:31+00:00	2013-11-29 05:56:12+00:00	closed	move word cloud up into logo-bar	jaquesgrobler	0
+130	2013-11-13 08:13:33+00:00	2013-11-13 08:16:52+00:00	closed	Changed scoring for group_sparse_covariance	rphlypo	0
+126	2013-11-05 13:51:58+00:00	2013-11-07 09:35:20+00:00	closed	doc string updates and change of default parameter	rphlypo	1
+121	2013-10-31 12:08:35+00:00	2013-11-01 17:28:23+00:00	closed	MRG: Cropping function	eickenberg	1
+117	2013-10-21 23:34:11+00:00	2013-10-22 01:46:06+00:00	closed	corrections to introduction page	jgors	0
+116	2013-10-14 15:31:37+00:00	2013-10-14 15:32:52+00:00	closed	Add minutes and seconds to bottom of examples 	jaquesgrobler	0
+115	2013-10-14 09:13:10+00:00	2013-10-14 14:37:00+00:00	closed	Remove unused imgs	jaquesgrobler	0
+111	2013-10-03 08:49:42+00:00	2013-10-04 15:31:01+00:00	closed	Bug fix in nilearn/group_sparse_covariance.py	rphlypo	1
+107	2013-09-13 14:24:21+00:00	2013-09-19 15:38:01+00:00	closed	Replace JS files in static with minimized versions 	jaquesgrobler	6
+106	2013-09-12 08:50:56+00:00	2013-09-13 11:47:49+00:00	closed	NiLearn Website - Tweaks for small phone screens and add doctools.js to _static	jaquesgrobler	1
+40	2013-03-05 12:31:25+00:00	2013-03-05 12:40:26+00:00	closed	Fix dataset fetch by closing a temporary file prior to moving.	jmargeta	0
+22	2012-06-26 10:21:33+00:00	2012-06-26 10:28:34+00:00	closed	Buttons	jaquesgrobler	0
+19	2012-06-25 14:53:30+00:00	2012-06-25 20:18:12+00:00	closed	 fMRI clustering documentation changes	jaquesgrobler	0
+18	2012-06-25 13:40:41+00:00	2012-06-25 13:50:31+00:00	closed	Some typos, broken links and other fixes	jaquesgrobler	0
+16	2012-06-25 12:25:48+00:00	2012-06-25 12:42:50+00:00	closed	some changes to visualizations page	jaquesgrobler	0
+14	2012-06-25 11:35:31+00:00	2012-06-25 11:52:17+00:00	closed	added comment	jaquesgrobler	0
